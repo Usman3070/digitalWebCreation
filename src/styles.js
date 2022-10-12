@@ -1,0 +1,211 @@
+import { makeStyles } from "@material-ui/core/styles";
+import background from "./assets/Media/background.png";
+import bg1 from "./assets/Media/bg1.png";
+import footer from "./assets/Media/footer.png";
+const useStyles = makeStyles((theme) => ({
+  // root: {
+  //   boxShadow: "none",
+  //   backgroundColor: "transparent",
+  // },
+  // typography: {
+  //   fontWeight: "800",
+  //   color: "#04212b",
+  //   paddingRight: "40px",
+  // },
+  // typographyContainer: {
+  //   display: "flex",
+  //   direction: "row",
+  //   justifyContent: "space-evenly",
+  //   padding: "40px",
+  // },
+  mainContainer: {
+    backgroundImage: `url(${background})`,
+    height: "900px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100%",
+  },
+  heroTitle: {
+    color: "#04212b",
+    paddingTop: "120px",
+  },
+  heroSubtitle: {
+    color: "#04212b",
+    paddingTop: "12px",
+  },
+  image1: {
+    height: "350px",
+    width: "280px",
+    marginLeft: "55px",
+    borderRadius: "15px",
+  },
+  image2: {
+    height: "350px",
+    width: "280px",
+    borderRadius: "15px",
+    position: "absolute",
+    right: "18.5%",
+    top: "27%",
+    transform: "rotate(15deg)",
+  },
+  image3: {
+    height: "350px",
+    width: "280px",
+    borderRadius: "15px",
+    position: "absolute",
+    right: "7%",
+    top: "47%",
+    transform: "rotate(37deg)",
+  },
+  image4: {
+    height: "350px",
+    width: "280px",
+    borderRadius: "15px",
+    position: "absolute",
+    transform: "rotate(-20deg)",
+    right: "18%",
+    bottom: "-18%",
+  },
+  circle1: {
+    height: "250px",
+    width: "230px",
+    position: "absolute",
+    transform: "rotate(93deg)",
+    bottom: "-23%",
+    right: "6%",
+  },
+  cardGrid: {
+    padding: "20px 0",
+    display: "flex",
+    flexDirection: "row",
+  },
+  card: {
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    padding: "40px",
+  },
+  rd2: {
+    position: "relative",
+    bottom: "11.5%",
+  },
+  rd3: {
+    position: "relative",
+    bottom: "24%",
+  },
+  line: {
+    backgroundColor: "#fff",
+    height: "1px",
+    width: "70%",
+    marginLeft: "13px",
+  },
+  collectionContainer: {
+    backgroundImage: `url(${bg1})`,
+    height: "900px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100%",
+  },
+  typo: {
+    marginTop: "10px",
+    marginBottom: "10px",
+    fontSize: "15px",
+    fontWeight: "800",
+    color: "#fff",
+  },
+  c1: {
+    height: "250px",
+    width: "200px",
+  },
+  c2: {
+    height: "250px",
+    width: "200px",
+  },
+  c3: {
+    height: "250px",
+    width: "200px",
+  },
+  c4: {
+    height: "250px",
+    width: "200px",
+  },
+  c5: {
+    height: "250px",
+    width: "200px",
+  },
+  c6: {
+    height: "250px",
+    width: "200px",
+  },
+
+  // Ccard2: {
+  //   borderRadius: "15px",
+  //   padding: "20px",
+  //   position: "relative",
+  //   left: "26%",
+  //   top: "39%",
+  // },
+  // Ccard3: {
+  //   borderRadius: "15px",
+  //   padding: "20px",
+  //   position: "relative",
+  //   left: "15%",
+  //   top: "12%",
+  // },
+  // Ccard4: {
+  //   borderRadius: "15px",
+  //   padding: "20px",
+  //   position: "relative",
+  //   top: "26%",
+  //   left: "-8%",
+  // },
+  // Ccard5: {
+  //   borderRadius: "15px",
+  //   padding: "20px",
+  //   position: "relative",
+  //   top: "-20%",
+  //   left: "-34%",
+  // },
+  // Ccard6: {
+  //   borderRadius: "15px",
+  //   padding: "20px",
+  //   position: "relative",
+  //   top: "-50%",
+  //   left: "460%",
+  // },
+  sphereCollection: {
+    height: "260px",
+    width: "260px",
+    position: "relative",
+    left: "77%",
+    top: "466%",
+  },
+  bgSphere: {
+    height: "170px",
+    width: "170px",
+    position: "relative",
+    left: "7%",
+  },
+  Wimage: {
+    height: "320px",
+    width: "320px",
+  },
+  WhitepaperCard: {
+    padding: "32px",
+    height: "570px",
+  },
+  footer: {
+    backgroundImage: `url(${footer})`,
+    height: "450px",
+    backgroundColor: "#070517",
+
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100%",
+    marginTop: "-4px",
+  },
+}));
+export default useStyles;

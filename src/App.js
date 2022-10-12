@@ -1,0 +1,115 @@
+import { Box } from "@mui/material";
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import useStyles from "./styles";
+import GridSection from "./components/GridSection";
+import Vision from "./components/Vision";
+import Collection from "./components/Collection";
+import CollectionComp from "./components/CollectionComp";
+import Whitepapers from "./components/Whitepapers";
+import FaqComp from "./components/FaqComp";
+import Team from "./components/Team";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Roadmap from "./components/Roadmap";
+import Video from "./components/Video";
+function App() {
+  const classes = useStyles();
+  return (
+    <>
+      <Box className={classes.mainContainer}>
+        <Navbar />
+        <HeroSection />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#070517",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <GridSection />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#04212b",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <Video />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#070517",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <Vision />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#070517",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <Roadmap />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#070517",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <CollectionComp />
+      </Box>
+      <Box className={classes.collectionContainer}>
+        <Collection />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#070517",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <Whitepapers />
+        <FaqComp />
+      </Box>
+      <Box
+        sx={{
+          background: "linear-gradient(to right top,#070517 , #0e0a2a)",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+        }}
+      >
+        <Team />
+      </Box>
+      <Box className={classes.collectionContainer}>
+        <Contact />
+      </Box>
+      <Box className={classes.footer}>
+        <Footer />
+      </Box>
+    </>
+  );
+}
+
+export default App;
