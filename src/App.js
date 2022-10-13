@@ -13,6 +13,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Roadmap from "./components/Roadmap";
 import Video from "./components/Video";
+import SecondCollection from "./components/SecondCollection";
 function App() {
   const classes = useStyles();
   return (
@@ -76,8 +77,22 @@ function App() {
       >
         <CollectionComp />
       </Box>
-      <Box className={classes.collectionContainer}>
+      <Box
+        className={classes.collectionContainer}
+        sx={{
+          display: { lg: "block", md: "block", sm: "none", xs: "none" },
+        }}
+      >
         <Collection />
+      </Box>
+      <Box
+        className={classes.collectionContainer}
+        sx={{
+          paddingBottom: { lg: "0%", md: "0%", sm: "400%", xs: "400%" },
+          display: { lg: "none", md: "none", sm: "block", xs: "block" },
+        }}
+      >
+        <SecondCollection />
       </Box>
       <Box
         sx={{
@@ -102,7 +117,7 @@ function App() {
       >
         <Team />
       </Box>
-      <Box className={classes.collectionContainer}>
+      <Box className={classes.collectionContainer} sx={{ width: "100%" }}>
         <Contact />
       </Box>
       <Box className={classes.footer}>

@@ -119,15 +119,15 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const drawerWidth = 240;
-const navItems = [
-  "Home",
-  "ROADMAP",
-  "COLLECTIONS",
-  "WHITEPAPERS",
-  "FAQ",
-  "TEAM",
-  "CONTACT",
-];
+// const navItems = [
+//   "Home",
+//   "ROADMAP",
+//   "COLLECTIONS",
+//   "WHITEPAPERS",
+//   "FAQ",
+//   "TEAM",
+//   "CONTACT",
+// ];
 
 function Navbar(props) {
   const { classes } = props;
@@ -147,10 +147,10 @@ function Navbar(props) {
     <Box
       onClick={handleDrawerToggle}
       sx={{
-        textAlign: "center",
         backgroundColor: "#04212b",
         height: "100vh",
         color: "#fff",
+        width: "100%",
       }}
     >
       {/* <Typography variant='h6' sx={{ my: 2 }}>
@@ -159,7 +159,7 @@ function Navbar(props) {
       <Divider /> */}
       <List>
         <ListItem disablePadding>
-          <ListItemButton sx={{ textAlign: "center" }}>
+          <ListItemButton>
             <ListItemText>
               <BrowserRouter>
                 <Button
@@ -383,7 +383,7 @@ function Navbar(props) {
               mr: 2,
               display: { sm: "none" },
               position: "absolute",
-              right: "1%",
+              right: { xs: "1%" },
             }}
           >
             <MenuIcon />

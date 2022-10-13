@@ -1,4 +1,4 @@
-import { Box, Card, CardMedia, Typography } from "@mui/material";
+import { Box, Card, CardMedia, Grid, Typography } from "@mui/material";
 import React from "react";
 import logo from "../assets/Media/logo.png";
 import linktree from "../assets/Media/linktree.svg";
@@ -44,104 +44,154 @@ const Footer = () => {
           STAY CONNECTED!
         </Typography>
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <div
-          onClick={() =>
-            openInNewTab("https://linktr.ee/DigitalWebCreationClub")
-          }
-        >
-          <CardMedia
-            image={linktree}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div onClick={() => openInNewTab("https://discord.com/invite/dwcc")}>
-          <CardMedia
-            image={discord}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div onClick={() => openInNewTab("https://twitter.com/SlothRoob")}>
-          <CardMedia
-            image={twitter}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div
-          onClick={() =>
-            openInNewTab("https://www.facebook.com/TheChroniclesofRoob")
-          }
-        >
-          <CardMedia
-            image={facebook}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div
-          onClick={() =>
-            openInNewTab(
-              "https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
-            )
-          }
-        >
-          <CardMedia
-            image={instagram}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div
-          onClick={() =>
-            openInNewTab(
-              "https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
-            )
-          }
-        >
-          <CardMedia
-            image='/youtube.svg'
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div
-          onClick={() => openInNewTab("https://www.tiktok.com/@slothroobnft")}
-        >
-          <CardMedia
-            image={tiktok}
-            sx={{
-              height: "48px",
-              width: "48px",
-              marginRight: { md: "20px", xs: "12px" },
-            }}
-          />
-        </div>
-        <div
-          onClick={() => openInNewTab("https://digitalwebcreation.medium.com/")}
-        >
-          <CardMedia image={footerImg} sx={{ height: "48px", width: "48px" }} />
-        </div>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          width: "40%",
+          margin: "auto",
+        }}
+      >
+        <Grid container md={12} lg={12}>
+          <Grid
+            item
+            container
+            md={12}
+            sm={12}
+            lg={12}
+            spacing={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://linktr.ee/DigitalWebCreationClub")
+                }
+              >
+                <CardMedia
+                  image={linktree}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() => openInNewTab("https://discord.com/invite/dwcc")}
+              >
+                <CardMedia
+                  image={discord}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() => openInNewTab("https://twitter.com/SlothRoob")}
+              >
+                <CardMedia
+                  image={twitter}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://www.facebook.com/TheChroniclesofRoob")
+                }
+              >
+                <CardMedia
+                  image={facebook}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
+                  )
+                }
+              >
+                <CardMedia
+                  image={instagram}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
+                  )
+                }
+              >
+                <CardMedia
+                  image='/youtube.svg'
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://www.tiktok.com/@slothroobnft")
+                }
+              >
+                <CardMedia
+                  image={tiktok}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                    // marginRight: { md: "20px", xs: "6px" },
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.5} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://digitalwebcreation.medium.com/")
+                }
+              >
+                <CardMedia
+                  image={footerImg}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                  }}
+                />
+              </div>
+            </Grid>
+          </Grid>
+        </Grid>
       </Box>
       <Box>
         <Typography

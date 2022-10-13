@@ -14,6 +14,7 @@ export default (theme) => ({
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.standard,
     }),
+    outerWidth: "100%",
   },
   appBarScrolledMenu: {
     color: "#fff !important",

@@ -16,7 +16,7 @@ export default function SimpleAccordion() {
   return (
     <Container>
       <Typography
-        variant='h3'
+        variant='h4'
         sx={{
           color: "#fff",
           textAlign: "center",

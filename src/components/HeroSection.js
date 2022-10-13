@@ -22,7 +22,7 @@ const HeroSection = () => {
             className={classes.heroTitle}
             sx={{
               fontWeight: "800",
-              fontSize: "42px",
+              fontSize: { lg: "42px", md: "36px", sm: "30px", xs: "24px" },
               paddingLeft: { xs: "5px", md: "120px" },
             }}
           >
@@ -30,8 +30,8 @@ const HeroSection = () => {
             <br /> CLUB{" "}
             <span
               style={{
-                fontWeight: "400",
-                fontSize: "26px",
+                fontWeight: "600",
+                fontSize: "14px",
               }}
             >
               Powered by Roob Chronicles
@@ -39,7 +39,11 @@ const HeroSection = () => {
           </Typography>
           <Typography
             className={classes.heroSubtitle}
-            sx={{ fontSize: "30px", paddingLeft: { xs: "5px", md: "120px" } }}
+            sx={{
+              fontSize: "30px",
+              paddingLeft: { xs: "5px", md: "120px" },
+              fontSize: { lg: "30px", md: "26px", sm: "22px", xs: "18px" },
+            }}
           >
             Get You Meta Identity
             <br />
@@ -51,7 +55,7 @@ const HeroSection = () => {
             sx={{
               padding: "12px",
               marginLeft: { xs: "5px", md: "121px" },
-              width: { xs: "50%", md: "43%" },
+              width: { xs: "70%", md: "43%" },
               borderRadius: "16px",
               marginTop: "20px",
               backgroundColor: "#573bfe",
@@ -65,11 +69,16 @@ const HeroSection = () => {
             JOIN OUR DISCORD
           </Button>
         </Grid>
-        <Grid item display={{ xs: "none", md: "block" }}>
+        <Grid
+          item
+          lg={3}
+          md={0}
+          display={{ xs: "none", md: "block", position: "relative" }}
+        >
           <CardMedia image={hero1} className={classes.image1} />
-          <CardMedia image={hero2} className={classes.image2} />
+          <CardMedia image='/repHero.png' className={classes.image2} />
           <CardMedia image={hero3} className={classes.image3} />
-          <CardMedia image={hero4} className={classes.image4} />
+          <CardMedia image='/repHero2.png' className={classes.image4} />
           <CardMedia image={circle} className={classes.circle1} />
         </Grid>
       </Grid>

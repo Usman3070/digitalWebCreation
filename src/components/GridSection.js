@@ -44,7 +44,7 @@ const GridSection = () => {
       title: "EXCLUSIVITY",
       subtitle: "Perks for Holder",
       description:
-        "- Holders of these unique NFTs will giving priority position to acquire future released NFTs . Yes, we call it “ Roobs List “ , we don’t call it “ Whitelist “ when you are with us.- Collect, Trade & have fun with our NFTs in market places .Special edition of “ The Chronicles of Roob “ story book once published. Exclusive membership to the “ Roobs “ club and their community giveaways.- Exclusive access to projects voting system and holders votes.- Exclusive access to partner’s collection at a discounted price.",
+        "-	Holders of Roobs NFTs will be giving priority position to acquire future released NFTs . Yes, we call it “ Roobs List “ , we don’t call it “ Whitelist “ when you with us. Guaranteed Free Mint on All Future Collections. ",
       btnTitle: "SEE MORE",
 
       image: "/sphere4.png",
@@ -120,8 +120,8 @@ const GridSection = () => {
           sx={{
             display: "flex",
             justifyContent: "center",
-            paddingLeft: "100px",
-            paddingRight: "100px",
+            paddingLeft: { md: "100px", lg: "100px", sm: "50px", xs: "0px" },
+            paddingRight: { md: "100px", lg: "100px", sm: "50px", xs: "0px" },
           }}
           // sx={{ paddingX: "70px", paddingY: "20px" }}
         >
@@ -138,7 +138,7 @@ const GridSection = () => {
                   }}
                 >
                   <img src={grid.img} />
-                  <Typography>
+                  {/* <Typography>
                     <img
                       src={grid.image}
                       style={
@@ -194,8 +194,66 @@ const GridSection = () => {
                           : {}
                       }
                     />
-                  </Typography>
-
+                  </Typography> */}
+                  <CardContent>
+                    <Typography>
+                      <img
+                        src={grid.image}
+                        style={
+                          index === 0
+                            ? {
+                                position: "absolute",
+                                bottom: "0",
+                                right: "0",
+                                maxWidth: "100%",
+                                height: "auto",
+                              }
+                            : index === 1
+                            ? {
+                                position: "absolute",
+                                bottom: "-4%",
+                                right: "-25%",
+                                maxWidth: "100%",
+                                height: "auto",
+                                background: "transparent",
+                              }
+                            : index === 2
+                            ? {
+                                position: "absolute",
+                                bottom: "-1%",
+                                right: "4%",
+                                maxWidth: "100%",
+                                height: "auto",
+                              }
+                            : index === 3
+                            ? {
+                                position: "absolute",
+                                bottom: "-3%",
+                                left: "0",
+                                maxWidth: "100%",
+                                height: "auto",
+                              }
+                            : index === 4
+                            ? {
+                                position: "absolute",
+                                bottom: "-3%",
+                                right: "0",
+                                maxWidth: "100%",
+                                height: "auto",
+                              }
+                            : index === 5
+                            ? {
+                                position: "absolute",
+                                bottom: "-1%",
+                                right: "0",
+                                maxWidth: "100%",
+                                height: "auto",
+                              }
+                            : {}
+                        }
+                      />
+                    </Typography>
+                  </CardContent>
                   <CardContent>
                     <Typography
                       sx={{

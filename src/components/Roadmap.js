@@ -158,7 +158,12 @@ const Roadmap = () => {
                             width: { md: "85%", xs: "100%" },
                             backgroundColor: "#04212b",
                             borderRadius: "20px",
-                            marginLeft: "19px",
+                            marginLeft: {
+                              md: "19px",
+                              lg: "19px",
+                              sm: "0px",
+                              xs: "0px",
+                            },
                             color: "#fff",
                             display: "flex",
                             alignItems: "center",

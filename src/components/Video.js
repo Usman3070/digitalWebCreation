@@ -8,12 +8,12 @@ const Video = () => {
         <CardMedia
           component='video'
           image='/video.mp4'
+          controls
           sx={{
-            maxWidth: "700px",
-            width: "100%",
+            maxWidth: { md: "700px", xs: "500px" },
+            width: { md: "100%", xs: "60%" },
             borderRadius: "20px",
           }}
-          autoPlay
         />
       </Typography>
     </>

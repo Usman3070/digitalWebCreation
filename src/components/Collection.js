@@ -15,6 +15,7 @@ import c5 from "../assets/Media/c5.png";
 import c6 from "../assets/Media/c6.png";
 import bgSphere from "../assets/Media/bgSphere.png";
 import useStyles from "../styles";
+import SecondCollection from "./SecondCollection";
 const Collection = () => {
   const classes = useStyles();
 

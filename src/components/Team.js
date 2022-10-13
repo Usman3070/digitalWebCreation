@@ -138,47 +138,57 @@ const Team = () => {
             ))}
           </Grid>
         </Grid> */}
-        <Grid
+        {/* <Grid
           container
           md={12}
           lg={12}
           // display={"flex"}
+        > */}
+        <Grid
+          item
+          container
+          md={12}
+          sm={12}
+          lg={12}
+          spacing={4}
+          sx={{ display: "flex", justifyContent: "center" }}
+          // sx={{ paddingX: "70px", paddingY: "20px" }}
         >
-          <Grid
-            item
-            container
-            md={12}
-            sm={12}
-            lg={12}
-            spacing={4}
-            sx={{ display: "flex", justifyContent: "center" }}
-            // sx={{ paddingX: "70px", paddingY: "20px" }}
-          >
-            {teamsImg.map((person) => (
-              <>
-                <Grid item md={3} sm={6} lg={3}>
-                  <Card
-                    sx={{
-                      height: "250px",
-                      width: "250px",
-                      borderRadius: "125px",
-                    }}
-                  >
-                    <CardMedia
-                      image={person.img}
+          {teamsImg.map((person) => (
+            <>
+              <Grid item md={4} sm={6} lg={3}>
+                <Typography
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography>
+                    <Card
                       sx={{
-                        height: "250px",
-                        width: "250px",
+                        height: { md: "250px", xs: "200px" },
+                        width: { md: "250px", xs: "200px" },
+                        borderRadius: "125px",
                       }}
-                    />
-                  </Card>
+                    >
+                      <CardMedia
+                        image={person.img}
+                        sx={{
+                          height: { md: "250px", xs: "200px" },
+                          width: { md: "250px", xs: "200px" },
+                        }}
+                      />
+                    </Card>
+                  </Typography>
+
                   <Typography
                     sx={{
                       color: "#fff",
                       fontWeight: "400",
                       fontSize: "30px",
-                      marginBottom: "20px",
-                      textAlign: "center",
+
                       marginTop: "30px",
                     }}
                   >
@@ -189,18 +199,20 @@ const Team = () => {
                       color: "#4efd93",
                       fontWeight: "400",
                       fontSize: "17px",
-                      marginBottom: "20px",
                       textAlign: "center",
+
                       marginTop: "30px",
                     }}
                   >
                     {person.subtitle}
                   </Typography>
-                </Grid>
-              </>
-            ))}
-          </Grid>
+                </Typography>
+              </Grid>
+            </>
+          ))}
         </Grid>
+        {/* </Grid> */}
+
         <Grid>
           <Grid
             container
@@ -214,16 +226,16 @@ const Team = () => {
             <Grid item>
               <Card
                 sx={{
-                  height: "250px",
-                  width: "250px",
+                  height: { md: "250px", xs: "200px" },
+                  width: { md: "250px", xs: "200px" },
                   borderRadius: "125px",
                 }}
               >
                 <CardMedia
                   image='/t9.png'
                   sx={{
-                    height: "250px",
-                    width: "250px",
+                    height: { md: "250px", xs: "200px" },
+                    width: { md: "250px", xs: "200px" },
                   }}
                 />
               </Card>

@@ -3,6 +3,7 @@ import useStyles from "../styles";
 import Btn from "./Btn";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { Box, TextareaAutosize, TextField } from "@mui/material";
 
 const ContactComp = () => {
   const classes = useStyles();
@@ -21,7 +22,7 @@ const ContactComp = () => {
   });
   return (
     <>
-      {/* <Box
+      <Box
         sx={{
           width: 500,
           maxWidth: "100%",
@@ -30,55 +31,47 @@ const ContactComp = () => {
       >
         <TextField
           fullWidth
-          placeholder="Name"
-          id="fullWidth"
+          placeholder='Name'
+          id='fullWidth'
           sx={{
             backgroundColor: "#04212b",
             color: "#9c9d9d",
             border: "none !important",
             borderColor: "transparent",
-            borderRadius: "20px",
+            // borderRadius: "20px",
             marginBottom: "20px",
           }}
         />
         <TextField
           fullWidth
-          placeholder="Email"
-          id="fullWidth"
+          placeholder='Email'
+          id='fullWidth'
           sx={{
             backgroundColor: "#04212b",
-            color: "#9c9d9d",
-            border: "none !important",
-            borderColor: "transparent",
-            borderRadius: "20px",
-
             marginBottom: "20px",
           }}
         />
-        <TextField
-          fullWidth
-          placeholder="Message"
-          id="fullWidth"
-          sx={{
+        <TextareaAutosize
+          aria-label='minimum height'
+          minRows={3}
+          placeholder='Message'
+          style={{
+            width: "100%",
+            height: "35%",
             backgroundColor: "#04212b",
-            color: "#9c9d9d",
-            border: "none !important",
-            borderColor: "transparent",
-            borderRadius: "20px",
-            height: "140px",
-            marginBottom: "-50px",
+            color: "#fff",
           }}
         />
-        <Btn title="SEND MESSAGE" />
-      </Box> */}
-      <form
+        <Btn title='SEND MESSAGE' />
+      </Box>
+      {/* <form
         onSubmit={formik.handleSubmit}
         style={{ display: "flex", flexDirection: "column" }}
       >
         <input
           placeholder='Name'
           style={{
-            width: "400px ",
+            width: "70% ",
             backgroundColor: "#04212b",
             borderRadius: "15px",
             border: "none",
@@ -96,7 +89,7 @@ const ContactComp = () => {
           onBlur={formik.handleBlur}
           value={formik.values.email}
           style={{
-            width: "400px ",
+            width: "70% ",
             backgroundColor: "#04212b",
             borderRadius: "15px",
             border: "none",
@@ -122,7 +115,7 @@ const ContactComp = () => {
           }}
         />
         <Btn title='SEND MESSAGE' type='submit' />
-      </form>
+      </form> */}
     </>
   );
 };
