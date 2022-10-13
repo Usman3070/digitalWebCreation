@@ -88,7 +88,7 @@ function App() {
       <Box
         className={classes.collectionContainer}
         sx={{
-          paddingBottom: { lg: "0%", md: "0%", sm: "400%", xs: "400%" },
+          paddingBottom: { lg: "0%", md: "0%", sm: "500%", xs: "500%" },
           display: { lg: "none", md: "none", sm: "block", xs: "block" },
         }}
       >
