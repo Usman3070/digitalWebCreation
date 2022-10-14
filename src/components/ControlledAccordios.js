@@ -12,39 +12,69 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
+          aria-controls='panel1a-content'
+          id='panel1a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             What is Digital Web Creation Club "DWCC"?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             Web Creation Club “DWCC” is the premium hub where their leads
             artists, designers & creators are generating unique, never stopping
             digital collectibles characters, non-fungible token & content on the
             blockchain.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             Beyond books , our aim is to provide compounding values and
             multimedia possibilities for our readers using decentralized
             technology.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             Paradoxically, decentralized technology can help people to
             experience poetry and literature in ancient fashion: As a shared,
             direct experience, with barriers removed between poet and audience,
             Web3 encourages peer-to-peer interactions between writers and
             readers — now reincarnated as reader-collectors.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             The DWCC Ecosystem provides unending possibilities. Our digital
             collections inspired by books we write are original and
             state-of-the-art.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             These products start with an NFT series, but project forward a
             roadmap under which holders of the NFT gain access to an expanding
             array of products, activities, and experiences. Revenue from initial
@@ -52,7 +82,12 @@ export default function SimpleAccordion() {
             increasingly ambitious projects — which in turn drive up the value
             of the NFTs themselves.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+          >
             Thus owning an NFT effectively makes you an investor, a member of a
             club, a brand shareholder, and a participant in all the top perks
             for holders.
@@ -63,11 +98,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             Who is behind Digital Web Creation Club "DWCC"?
           </Typography>
         </AccordionSummary>
@@ -105,11 +145,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             How many NFT collections will be created by Digital Web Creation
             Club "DWCC" ?
           </Typography>
@@ -141,11 +186,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             WHow many NFTs in each collection will be there?
           </Typography>
         </AccordionSummary>
@@ -161,11 +211,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             What blockchain is being used?
           </Typography>
         </AccordionSummary>
@@ -181,11 +236,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             Who can I contact if I have more questions?
           </Typography>
         </AccordionSummary>
@@ -194,26 +254,26 @@ export default function SimpleAccordion() {
             ✔ Linktree{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://linktr.ee/DigitalWebCreationClub"
+              href='https://linktr.ee/DigitalWebCreationClub'
             >
               https://linktr.ee/DigitalWebCreationClub
             </a>
           </Typography>
           <Typography sx={{ color: "#fff", fontSize: "22px" }}>
             ✔ Website{" "}
-            <a style={{ color: "#fff" }} href="https://digitalwebcreation.com/">
+            <a style={{ color: "#fff" }} href='https://digitalwebcreation.com/'>
               https://digitalwebcreation.com/
             </a>
           </Typography>
           <Typography sx={{ color: "#fff", fontSize: "22px" }}>
             ✔ Discord{" "}
-            <a style={{ color: "#fff" }} href="https://discord.gg/dwcc">
+            <a style={{ color: "#fff" }} href='https://discord.gg/dwcc'>
               https://discord.gg/dwcc/
             </a>
           </Typography>
           <Typography sx={{ color: "#fff", fontSize: "22px" }}>
             ✔ Twitter{" "}
-            <a style={{ color: "#fff" }} href="https://twitter.com/SlothRoob">
+            <a style={{ color: "#fff" }} href='https://twitter.com/SlothRoob'>
               https://twitter.com/SlothRoob
             </a>
           </Typography>
@@ -221,7 +281,7 @@ export default function SimpleAccordion() {
             ✔ Facebook{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://www.facebook.com/TheChroniclesofRoob"
+              href='https://www.facebook.com/TheChroniclesofRoob'
             >
               https://www.facebook.com/TheChroniclesofRoob
             </a>
@@ -230,7 +290,7 @@ export default function SimpleAccordion() {
             ✔ Instagram{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://www.instagram.com/sloth_roob"
+              href='https://www.instagram.com/sloth_roob'
             >
               https://www.instagram.com/sloth_roob
             </a>
@@ -239,7 +299,7 @@ export default function SimpleAccordion() {
             ✔ Youtube{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
+              href='https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg'
             >
               https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg
             </a>
@@ -248,7 +308,7 @@ export default function SimpleAccordion() {
             ✔ TikTok{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://www.tiktok.com/@slothroobnft"
+              href='https://www.tiktok.com/@slothroobnft'
             >
               https://www.tiktok.com/@slothroobnft
             </a>
@@ -257,7 +317,7 @@ export default function SimpleAccordion() {
             ✔ Medium{" "}
             <a
               style={{ color: "#fff" }}
-              href="https://digitalwebcreation.medium.com/"
+              href='https://digitalwebcreation.medium.com/'
             >
               https://digitalwebcreation.medium.com/
             </a>
@@ -268,11 +328,16 @@ export default function SimpleAccordion() {
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon sx={{ color: "#fff" }} />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls='panel2a-content'
+          id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
+            }}
+          >
             How do I invite Friends to Digital Web Creation Club "DWCC"
             Community?
           </Typography>

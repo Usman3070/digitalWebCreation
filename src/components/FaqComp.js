@@ -29,6 +29,7 @@ const FaqComp = () => {
           fontWeight: "600",
           textAlign: "center",
           marginBottom: "20px",
+          fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
       >
         THE CHRONICLES OF ROOB
@@ -40,6 +41,7 @@ const FaqComp = () => {
           fontWeight: "500",
           textAlign: "center",
           paddingBottom: "120px",
+          fontSize: { lg: "28px", md: "28px", sm: "22px", xs: "14px" },
         }}
       >
         First Edition Audiobook
@@ -84,6 +86,7 @@ const FaqComp = () => {
           fontWeight: "600",
           textAlign: "center",
           paddingBottom: "80px",
+          fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
       >
         FREQUENCY ASKED QUESTIONS

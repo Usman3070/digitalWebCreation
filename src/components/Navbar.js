@@ -365,7 +365,10 @@ function Navbar(props) {
     <Box sx={{ display: "flex" }}>
       <AppBar
         component='nav'
-        sx={{ boxShadow: "none", backgroundColor: "transparent" }}
+        sx={{
+          boxShadow: "none",
+          backgroundColor: "transparent",
+        }}
         position='fixed'
         elevation={0}
         className={`${classes.appBar} ${

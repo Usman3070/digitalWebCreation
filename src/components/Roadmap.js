@@ -7,6 +7,7 @@ import sphere from "../assets/Media/sphere.png";
 import rbgSphere from "../assets/Media/rgbSphere.png";
 import useStyle from "../styles";
 import RoadmapDesc from "./RoadmapDesc";
+import DottedLine from "./DottedLine";
 
 const Roadmap = () => {
   const roadMapContent = [
@@ -73,6 +74,117 @@ const Roadmap = () => {
         >
           ROADMAP
         </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "5.7%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "14.5%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "23.4%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "32.5%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "41.7%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "50.7%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            --------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{ position: "absolute", bottom: "60.7%", left: "23.5%" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ------------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{
+            position: "absolute",
+            bottom: "69.7%",
+            left: "23.5%",
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+              display: { md: "block", sm: "none", xs: "none" },
+            }}
+          >
+            ------------------
+          </Typography>
+        </Typography>
+
         <Grid container spacing={2}>
           <Grid
             item
@@ -112,6 +224,7 @@ const Roadmap = () => {
                             display: { md: "flex", xs: "none" },
                             alignItems: "center",
                             // paddingLeft: "20px",
+                            marginLeft: "20px",
                           }
                         : {
                             width: "15%",
@@ -128,7 +241,7 @@ const Roadmap = () => {
                           ? {
                               height: "3px",
                               backgroundColor: "#fff",
-                              width: "60px",
+                              width: "55px",
                             }
                           : {
                               height: "3px",

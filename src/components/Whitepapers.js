@@ -122,7 +122,11 @@ const Whitepapers = () => {
           <Grid item md={4} xs={12}>
             <Card
               className={classes.WhitepaperCard}
-              sx={{ backgroundColor: "#04212b", borderRadius: "20px" }}
+              sx={{
+                backgroundColor: "#04212b",
+                borderRadius: "20px",
+                paddingBottom: { lg: "0px", md: "0px", sm: "20px", xs: "70px" },
+              }}
             >
               <CardMedia
                 image={w3}

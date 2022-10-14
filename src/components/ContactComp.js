@@ -1,12 +1,10 @@
 import React from "react";
-import useStyles from "../styles";
 import Btn from "./Btn";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { Box, TextareaAutosize, TextField } from "@mui/material";
+import { Box, Button, TextareaAutosize, TextField } from "@mui/material";
 
 const ContactComp = () => {
-  const classes = useStyles();
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -22,48 +20,81 @@ const ContactComp = () => {
   });
   return (
     <>
-      <Box
-        sx={{
-          width: 500,
-          maxWidth: "100%",
-          //   borderRadius: "20px",
-        }}
-      >
-        <TextField
-          fullWidth
-          placeholder='Name'
-          id='fullWidth'
+      <form onSubmit={formik.handleSubmit}>
+        <Box
           sx={{
-            backgroundColor: "#04212b",
-            color: "#9c9d9d",
-            border: "none !important",
-            borderColor: "transparent",
-            // borderRadius: "20px",
-            marginBottom: "20px",
+            width: 500,
+            maxWidth: "100%",
+            //   borderRadius: "20px",
           }}
-        />
-        <TextField
-          fullWidth
-          placeholder='Email'
-          id='fullWidth'
-          sx={{
-            backgroundColor: "#04212b",
-            marginBottom: "20px",
-          }}
-        />
-        <TextareaAutosize
-          aria-label='minimum height'
-          minRows={3}
-          placeholder='Message'
-          style={{
-            width: "100%",
-            height: "35%",
-            backgroundColor: "#04212b",
-            color: "#fff",
-          }}
-        />
-        <Btn title='SEND MESSAGE' />
-      </Box>
+        >
+          <TextField
+            fullWidth
+            placeholder='Name'
+            id='fullWidth'
+            sx={{
+              backgroundColor: "#04212b",
+              border: "none !important",
+              borderColor: "transparent",
+              // borderRadius: "20px",
+              marginBottom: "20px",
+              width: { md: "100%", sm: "80%", xs: "70%" },
+            }}
+          />
+          <TextField
+            fullWidth
+            placeholder='Email'
+            id='fullWidth'
+            name='email'
+            type='email'
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            value={formik.values.email}
+            sx={{
+              backgroundColor: "#04212b",
+              marginBottom: "20px",
+              width: { md: "100%", sm: "80%", xs: "70%" },
+            }}
+          />
+          {formik.touched.email && formik.errors.email ? (
+            <div style={{ color: "red" }}>{formik.errors.email}</div>
+          ) : null}
+          <TextField
+            placeholder='Message'
+            multiline
+            rows={3}
+            maxRows={4}
+            sx={{
+              backgroundColor: "#04212b",
+              width: { md: "100%", sm: "80%", xs: "70%" },
+            }}
+          />
+          {/* <TextareaAutosize
+            aria-label='minimum height'
+            minRows={3}
+            placeholder='Message'
+            style={{
+              width: "100%",
+              height: "100px",
+              backgroundColor: "#04212b",
+              color: "#fff",
+            }}
+          /> */}
+          <Button
+            sx={{
+              backgroundColor: "#4efd93",
+              padding: "18px",
+              width: { md: "100%", sm: "80%", xs: "70%" },
+              borderRadius: "16px",
+              color: "#fff",
+              fontWeight: "bold",
+              mt: "110px",
+            }}
+          >
+            SEND MESSAGE
+          </Button>
+        </Box>
+      </form>
       {/* <form
         onSubmit={formik.handleSubmit}
         style={{ display: "flex", flexDirection: "column" }}

@@ -32,6 +32,7 @@ const Contact = () => {
         sx={{
           display: "flex",
           justifyContent: "center",
+          width: { md: "100%", sm: "60%", xs: "40%" },
         }}
       >
         <ContactComp />

@@ -22,6 +22,7 @@ export default function SimpleAccordion() {
           textAlign: "center",
           fontWeight: "600",
           padding: "80px",
+          fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
       >
         HOW TO BUY NON-FUNGIBLE TOKEN

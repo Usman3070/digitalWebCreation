@@ -126,9 +126,7 @@ const Footer = () => {
             <Grid item md={1.5} xs={3}>
               <div
                 onClick={() =>
-                  openInNewTab(
-                    "https://www.youtube.com/channel/UCNroE867f5ixB-3Lf2wkZIg"
-                  )
+                  openInNewTab("https://www.instagram.com/sloth_roob/")
                 }
               >
                 <CardMedia

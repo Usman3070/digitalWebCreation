@@ -18,7 +18,7 @@ function App() {
   const classes = useStyles();
   return (
     <>
-      <Box className={classes.mainContainer}>
+      <Box className={classes.mainContainer} sx={{ width: "100%" }}>
         <Navbar />
         <HeroSection />
       </Box>
@@ -88,7 +88,7 @@ function App() {
       <Box
         className={classes.collectionContainer}
         sx={{
-          paddingBottom: { lg: "0%", md: "0%", sm: "500%", xs: "500%" },
+          paddingBottom: { lg: "0%", md: "0%", sm: "500%", xs: "700%" },
           display: { lg: "none", md: "none", sm: "block", xs: "block" },
         }}
       >
@@ -117,6 +117,7 @@ function App() {
       >
         <Team />
       </Box>
+      {/* Responsive problem in this component */}
       <Box className={classes.collectionContainer} sx={{ width: "100%" }}>
         <Contact />
       </Box>
