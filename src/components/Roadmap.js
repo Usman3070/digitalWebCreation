@@ -75,7 +75,12 @@ const Roadmap = () => {
           ROADMAP
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "5.7%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "5.8%", md: "5.5%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -84,11 +89,16 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            ------------------------
+            ---------------------
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "14.5%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "14.5%", md: "13.7%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -97,11 +107,16 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            ------------------------
+            ---------------------
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "23.4%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "23.2%", md: "22%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -110,11 +125,16 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            ------------------------
+            ---------------------
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "32.5%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "32%", md: "30.5%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -123,11 +143,16 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            ------------------------
+            ----------------------
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "41.7%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "41%", md: "39.8%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -136,11 +161,16 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            ------------------------
+            -----------------------
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "50.7%", left: "23.5%" }}
+          sx={{
+            position: "absolute",
+            bottom: { lg: "50%", md: "50%" },
+            left: { lg: "23.5%", md: "27%" },
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
         >
           <Typography
             sx={{
@@ -153,23 +183,10 @@ const Roadmap = () => {
           </Typography>
         </Typography>
         <Typography
-          sx={{ position: "absolute", bottom: "60.7%", left: "23.5%" }}
-        >
-          <Typography
-            sx={{
-              color: "#fff",
-              marginBottom: "1px",
-              writingMode: "vertical-lr",
-            }}
-          >
-            ------------------
-          </Typography>
-        </Typography>
-        <Typography
           sx={{
             position: "absolute",
-            bottom: "69.7%",
-            left: "23.5%",
+            bottom: { lg: "60.5%", md: "61.5%" },
+            left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
         >
@@ -178,10 +195,28 @@ const Roadmap = () => {
               color: "#fff",
               marginBottom: "1px",
               writingMode: "vertical-lr",
-              display: { md: "block", sm: "none", xs: "none" },
             }}
           >
-            ------------------
+            ---------------
+          </Typography>
+        </Typography>
+        <Typography
+          sx={{
+            position: "absolute",
+            bottom: { lg: "69%", md: "70.7%" },
+            left: { lg: "23.5%", md: "26.8%" },
+
+            display: { md: "block", sm: "none", xs: "none" },
+          }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              marginBottom: "1px",
+              writingMode: "vertical-lr",
+            }}
+          >
+            ---------------
           </Typography>
         </Typography>
 
@@ -312,6 +347,7 @@ const Roadmap = () => {
                                 fontWeight: "800",
                               }
                         }
+                        fontFamily='Raleway'
                       >
                         {roadmap.title}
                       </Typography>
@@ -324,7 +360,7 @@ const Roadmap = () => {
                         }}
                       ></Typography>
                     </Typography>
-                    <Typography>{roadmap.desc}</Typography>
+                    <Typography fontFamily='Raleway'>{roadmap.desc}</Typography>
                   </Box>
                 </Box>
                 {/* <Typography

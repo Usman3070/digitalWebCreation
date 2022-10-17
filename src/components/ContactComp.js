@@ -20,11 +20,12 @@ const ContactComp = () => {
   });
   return (
     <>
-      <form onSubmit={formik.handleSubmit}>
+      <form onSubmit={formik.handleSubmit} style={{ color: "white" }}>
         <Box
           sx={{
             width: 500,
             maxWidth: "100%",
+            color: "white",
             //   borderRadius: "20px",
           }}
         >
@@ -38,6 +39,7 @@ const ContactComp = () => {
               borderColor: "transparent",
               // borderRadius: "20px",
               marginBottom: "20px",
+              color: "white !important",
               width: { md: "100%", sm: "80%", xs: "70%" },
             }}
           />

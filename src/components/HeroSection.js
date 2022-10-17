@@ -16,15 +16,25 @@ const HeroSection = () => {
   return (
     <section id='home'>
       <Grid container spacing={2}>
-        <Grid item sx={{ display: "relative" }}>
+        <Grid
+          item
+          sx={{
+            display: { lg: "block", md: "block", sm: "flex", xs: "flex" },
+            justifyContent: "center",
+            alignItems: "center",
+            margin: { xl: "0px", lg: "0px", md: "0px", sm: "auto", xs: "auto" },
+          }}
+          direction='column'
+        >
           <Typography
             variant='h4'
             className={classes.heroTitle}
             sx={{
-              fontWeight: "800",
-              fontSize: { lg: "42px", md: "36px", sm: "30px", xs: "24px" },
+              fontSize: { lg: "42px", md: "36px", sm: "30px", xs: "26px" },
               paddingLeft: { xs: "5px", md: "120px" },
+              fontWeight: "800",
             }}
+            fontFamily='Raleway-bolder'
           >
             DIGITAL WEB CREATION
             <br /> CLUB{" "}
@@ -42,8 +52,12 @@ const HeroSection = () => {
             sx={{
               fontSize: "30px",
               paddingLeft: { xs: "5px", md: "120px" },
-              fontSize: { lg: "30px", md: "26px", sm: "22px", xs: "18px" },
+              fontSize: { lg: "34px", md: "34px", sm: "30px", xs: "28px" },
+              justifyContent: "center",
+              textAlign: { xs: "center", sm: "center", md: "left", lg: "left" },
             }}
+            fontFamily='Raleway'
+            paragraph
           >
             Get You Meta Identity
             <br />
@@ -55,7 +69,7 @@ const HeroSection = () => {
             sx={{
               padding: "12px",
               marginLeft: { xs: "5px", md: "121px" },
-              width: { xs: "70%", md: "43%" },
+              width: { xs: "90%", sm: "80%", md: "43%" },
               borderRadius: "16px",
               marginTop: "20px",
               backgroundColor: "#573bfe",
@@ -73,13 +87,75 @@ const HeroSection = () => {
           item
           lg={3}
           md={0}
-          display={{ xs: "none", md: "block", position: "relative" }}
+          sx={{
+            display: {
+              xs: "none",
+              sm: "none",
+              lg: "block",
+              md: "block",
+              position: "relative",
+            },
+          }}
         >
-          <CardMedia image={hero1} className={classes.image1} />
-          <CardMedia image='/repHero.png' className={classes.image2} />
-          <CardMedia image={hero3} className={classes.image3} />
-          <CardMedia image='/repHero2.png' className={classes.image4} />
-          <CardMedia image={circle} className={classes.circle1} />
+          <CardMedia
+            image={hero1}
+            className={classes.image1}
+            sx={{
+              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              marginLeft: "55px",
+              borderRadius: "15px",
+            }}
+          />
+          <CardMedia
+            image='/repHero.png'
+            sx={{
+              height: { md: "200", lg: "350px", sm: "200px", xs: "200px" },
+              width: { md: "170px", lg: "280px", sm: "170px", xs: "170px" },
+              borderRadius: "15px",
+              position: "absolute",
+              right: { lg: "-35%", md: "-46%" },
+              top: { lg: "27%", md: "20%" },
+              transform: "rotate(15deg)",
+            }}
+          />
+          <CardMedia
+            image={hero3}
+            className={classes.image3}
+            sx={{
+              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              borderRadius: "15px",
+              position: "absolute",
+              right: { lg: "-73%", md: "-85%" },
+              top: { lg: "67%", md: "40%" },
+              transform: "rotate(42deg)",
+            }}
+          />
+          <CardMedia
+            image='/repHero2.png'
+            className={classes.image4}
+            sx={{
+              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              borderRadius: "15px",
+              position: "absolute",
+              transform: "rotate(-20deg)",
+              left: { lg: "55%", md: "70%" },
+              top: { lg: "100%", md: "70%" },
+            }}
+          />
+          <CardMedia
+            image={circle}
+            sx={{
+              height: { lg: "250px", md: "200px" },
+              width: { lg: "230px", md: "180px" },
+              position: "absolute",
+              transform: "rotate(93deg)",
+              bottom: { lg: "-100%", md: "-30%" },
+              right: { lg: "-80%", md: "-90%" },
+            }}
+          />
         </Grid>
       </Grid>
     </section>

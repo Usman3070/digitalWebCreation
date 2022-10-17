@@ -19,6 +19,7 @@ const FaqComp = () => {
           paddingTop: "80px",
         }}
         variant='h4'
+        fontFamily='Raleway'
       >
         CHILL TIME
       </Typography>
@@ -31,6 +32,7 @@ const FaqComp = () => {
           marginBottom: "20px",
           fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
+        fontFamily='Raleway'
       >
         THE CHRONICLES OF ROOB
       </Typography>
@@ -43,6 +45,7 @@ const FaqComp = () => {
           paddingBottom: "120px",
           fontSize: { lg: "28px", md: "28px", sm: "22px", xs: "14px" },
         }}
+        fontFamily='Raleway'
       >
         First Edition Audiobook
       </Typography>
@@ -76,6 +79,7 @@ const FaqComp = () => {
           paddingTop: "80px",
         }}
         variant='h4'
+        fontFamily='Raleway'
       >
         FAQ
       </Typography>
@@ -88,6 +92,7 @@ const FaqComp = () => {
           paddingBottom: "80px",
           fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
+        fontFamily='Raleway'
       >
         FREQUENCY ASKED QUESTIONS
       </Typography>

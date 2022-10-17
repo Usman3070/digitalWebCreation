@@ -10,7 +10,7 @@ const Video = () => {
           image='/video.mp4'
           controls
           sx={{
-            maxWidth: { md: "700px", xs: "500px" },
+            maxWidth: { md: "50%", xs: "50%" },
             width: { md: "100%", xs: "60%" },
             borderRadius: "20px",
           }}

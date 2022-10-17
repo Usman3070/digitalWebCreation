@@ -114,11 +114,11 @@ import logo from "../assets/Media/logo.png";
 import withStyles from "@material-ui/core/styles/withStyles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import styles from "./Navbar.style";
-
+import CloseIcon from "@mui/icons-material/Close";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
-const drawerWidth = 240;
+const drawerWidth = "100%";
 // const navItems = [
 //   "Home",
 //   "ROADMAP",
@@ -145,7 +145,6 @@ function Navbar(props) {
 
   const drawer = (
     <Box
-      onClick={handleDrawerToggle}
       sx={{
         backgroundColor: "#04212b",
         height: "100vh",
@@ -162,6 +161,11 @@ function Navbar(props) {
           <ListItemButton>
             <ListItemText>
               <BrowserRouter>
+                <CloseIcon
+                  color='#fff'
+                  sx={{ display: "flex", float: "right" }}
+                  onClick={handleDrawerToggle}
+                />
                 <Button
                   sx={{
                     fontWeight: "800",
@@ -174,6 +178,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     HOME
                   </Link>
@@ -188,6 +193,7 @@ function Navbar(props) {
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
                   {/* <Link
                   to='#home'
@@ -209,6 +215,7 @@ function Navbar(props) {
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
                   {/* <Link
                   to='#home'
@@ -237,6 +244,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     ROADMAP
                   </Link>
@@ -258,6 +266,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     COLLECTIONS
                   </Link>
@@ -279,6 +288,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     {" "}
                     WHITEPAPERS
@@ -301,6 +311,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     FAQ
                   </Link>
@@ -322,6 +333,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     TEAM
                   </Link>
@@ -343,6 +355,7 @@ function Navbar(props) {
                     // className={`${classes.menu} ${
                     //   trigger === false ? "" : classes.appBarScrolledMenu
                     // }`}
+                    onClick={handleDrawerToggle}
                   >
                     CONTACT
                   </Link>
@@ -375,41 +388,75 @@ function Navbar(props) {
           trigger === false ? "" : classes.appBarScrolled
         }`}
       >
-        <Toolbar className={classes.toolbar}>
-          <IconButton
-            color='inherit'
-            size='small'
-            aria-label='open drawer'
-            edge='start'
-            onClick={handleDrawerToggle}
-            sx={{
-              mr: 2,
-              display: { sm: "none" },
-              position: "absolute",
-              right: { xs: "1%" },
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
+        <Toolbar
+          className={classes.toolbar}
+          sx={{ display: "flex", justifyContent: "flex-end" }}
+        >
           <Typography
             variant='h6'
             component='div'
             sx={{
               flexGrow: 1,
               display: { xs: "none", sm: "block" },
-              paddingLeft: "52px",
+              paddingLeft: { xl: "52px", lg: "52px", md: "2px" },
               paddingTop: "10px",
             }}
           >
             <img src={logo} />
           </Typography>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <IconButton
+            color='inherit'
+            size='small'
+            aria-label='open drawer'
+            // edge='start'
+            onClick={handleDrawerToggle}
+            sx={
+              {
+                // display: "flex",
+                // justifyContent: "end",
+                // mr: 5,
+                // position: "absolute",
+                // right: { xs: "1%", },
+              }
+            }
+          >
+            <MenuIcon
+              sx={{
+                display: { xs: "block", sm: "block", md: "none", lg: "none" },
+              }}
+            />
+          </IconButton>
+          <Box
+            sx={{
+              display: { xs: "none", sm: "none", md: "block", lg: "block" },
+            }}
+          >
             <BrowserRouter>
+              <Button>
+                <Link
+                  to='#home'
+                  style={{ textDecoration: "none", color: "#04212b" }}
+                  className={`${classes.menu} ${
+                    trigger === false ? "" : classes.appBarScrolledMenu
+                  }`}
+                >
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    HOME
+                  </Typography>
+                </Link>
+              </Button>
               <Button
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
                 sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
+                  color: "#fff",
                 }}
               >
                 <Link
@@ -419,58 +466,42 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  HOME
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    MINT
+                  </Typography>
                 </Link>
               </Button>
               <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                  color: "#04212b",
-                }}
                 className={`${classes.menu} ${
                   trigger === false ? "" : classes.appBarScrolledMenu
                 }`}
               >
-                {/* <Link
+                <Link
                   to='#home'
                   style={{ textDecoration: "none", color: "#04212b" }}
                   className={`${classes.menu} ${
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
-                > */}
-                MINT
-                {/* </Link> */}
+                >
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                      // color: "#04212b",
+                    }}
+                  >
+                    STAKING
+                  </Typography>
+                </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                  color: "#04212b",
-                }}
-                className={`${classes.menu} ${
-                  trigger === false ? "" : classes.appBarScrolledMenu
-                }`}
-              >
-                {/* <Link
-                  to='#home'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
-                > */}
-                STAKING
-                {/* </Link> */}
-              </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#roadmap'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -478,16 +509,19 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  ROADMAP
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    {" "}
+                    ROADMAP
+                  </Typography>
                 </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#collections'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -495,16 +529,18 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  COLLECTIONS
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    COLLECTIONS
+                  </Typography>
                 </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#whitepapers'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -512,17 +548,19 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  {" "}
-                  WHITEPAPERS
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    {" "}
+                    WHITEPAPERS
+                  </Typography>
                 </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#faq'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -530,16 +568,18 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  FAQ
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    FAQ
+                  </Typography>
                 </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#team'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -547,16 +587,18 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  TEAM
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    TEAM
+                  </Typography>
                 </Link>
               </Button>
-              <Button
-                sx={{
-                  fontWeight: "800",
-                  paddingRight: "40px",
-                  fontSize: "16px",
-                }}
-              >
+              <Button>
                 <Link
                   to='#contact'
                   style={{ textDecoration: "none", color: "#04212b" }}
@@ -564,7 +606,15 @@ function Navbar(props) {
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 >
-                  CONTACT
+                  <Typography
+                    sx={{
+                      fontWeight: "800",
+                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    }}
+                  >
+                    CONTACT
+                  </Typography>
                 </Link>
               </Button>
             </BrowserRouter>
@@ -581,7 +631,7 @@ function Navbar(props) {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: "block", sm: "none" },
+            display: { xs: "block", sm: "block" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,

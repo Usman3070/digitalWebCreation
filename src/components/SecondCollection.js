@@ -37,6 +37,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               Genesis Boss Sloth Roob
             </Typography>
@@ -68,6 +69,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               Sloth Roob Official Collection
             </Typography>
@@ -84,7 +86,7 @@ const SecondCollection = () => {
           }}
         >
           <CardMedia
-            image={c3}
+            image='/mammoth.png'
             sx={{
               height: "270px",
               width: "250px",
@@ -99,6 +101,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               MammothBoof
             </Typography>
@@ -107,6 +110,7 @@ const SecondCollection = () => {
                 marginLeft: "80px",
                 color: "#9c9d9d",
               }}
+              fontFamily='Raleway'
             >
               coming soon
             </Typography>
@@ -138,6 +142,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               Genesis Boss Sloth Roob
             </Typography>
@@ -169,6 +174,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               Genesis Boss Sloth Roob
             </Typography>
@@ -200,6 +206,7 @@ const SecondCollection = () => {
                 fontWeight: "600",
                 fontSize: "19px",
               }}
+              fontFamily='Raleway'
             >
               Genesis Boss Sloth Roob
             </Typography>

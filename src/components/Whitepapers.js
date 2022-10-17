@@ -27,6 +27,7 @@ const Whitepapers = () => {
           marginBottom: "20px",
           marginTop: "-2px",
         }}
+        fontFamily='Raleway'
       >
         OUR FILES
       </Typography>
@@ -37,6 +38,7 @@ const Whitepapers = () => {
           textAlign: "center",
           fontSize: "34px",
         }}
+        fontFamily='Raleway'
       >
         WHITEPAPERS
       </Typography>
@@ -72,6 +74,7 @@ const Whitepapers = () => {
                     letterSpacing: "2px",
                     marginLeft: { lg: "23px", md: "23px", xs: "13px" },
                   }}
+                  fontFamily='Raleway'
                 >
                   Whitepaper
                 </Typography>
@@ -105,6 +108,7 @@ const Whitepapers = () => {
                     letterSpacing: "2px",
                     marginLeft: { lg: "23px", md: "23px", xs: "13px" },
                   }}
+                  fontFamily='Raleway'
                 >
                   Licensing Rights
                 </Typography>
@@ -142,6 +146,7 @@ const Whitepapers = () => {
                     letterSpacing: "2px",
                     marginLeft: { lg: "23px", md: "23px", xs: "13px" },
                   }}
+                  fontFamily='Raleway'
                 >
                   The Chronicles of Roob
                 </Typography>

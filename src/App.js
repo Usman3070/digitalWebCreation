@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import useStyles from "./styles";
@@ -14,11 +14,17 @@ import Footer from "./components/Footer";
 import Roadmap from "./components/Roadmap";
 import Video from "./components/Video";
 import SecondCollection from "./components/SecondCollection";
+
 function App() {
   const classes = useStyles();
   return (
     <>
-      <Box className={classes.mainContainer} sx={{ width: "100%" }}>
+      <Box
+        className={classes.mainContainer}
+        sx={{
+          width: "100%",
+        }}
+      >
         <Navbar />
         <HeroSection />
       </Box>
@@ -88,7 +94,7 @@ function App() {
       <Box
         className={classes.collectionContainer}
         sx={{
-          paddingBottom: { lg: "0%", md: "0%", sm: "500%", xs: "700%" },
+          paddingBottom: { lg: "0%", md: "0%", sm: "250%", xs: "640%" },
           display: { lg: "none", md: "none", sm: "block", xs: "block" },
         }}
       >

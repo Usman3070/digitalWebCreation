@@ -38,8 +38,9 @@ const Footer = () => {
             textAlign: "center",
             paddingTop: "50px",
             marginBottom: "40px",
-            fontSize: "42px",
+            fontSize: { lg: "42px", md: "42px", sm: "34px", xs: "28px" },
           }}
+          fontFamily='Raleway'
         >
           STAY CONNECTED!
         </Typography>
@@ -199,6 +200,7 @@ const Footer = () => {
             paddingTop: "50px",
             marginBottom: "40px",
           }}
+          fontFamily='Raleway'
         >
           ©2022, Digital Web Creation Club " DWCC "
         </Typography>

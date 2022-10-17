@@ -14,6 +14,7 @@ const CollectionComp = () => {
             fontWeight: "800",
             textAlign: "center",
           }}
+          fontFamily='Raleway'
         >
           CREATIVE MODERN LIMITED NFT COLLECTIONS
         </Typography>
@@ -29,6 +30,7 @@ const CollectionComp = () => {
             textAlign: "center",
             marginBottom: "-130px",
           }}
+          fontFamily='Raleway'
         >
           OUR NFT COLLECTIONS
         </Typography>

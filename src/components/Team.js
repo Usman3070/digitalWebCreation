@@ -7,42 +7,42 @@ const Team = () => {
     {
       img: "/hero1.png",
       title: "Mono",
-      subtitle: "Mono, Co-founder, Artist & Business Manager",
+      subtitle: "Mono, Co-founder, Business Manager",
     },
     {
       img: "/t2.png",
       title: "Luke",
-      subtitle: "Co-founder, Business Development",
+      subtitle: "Co-founder, Business Development Manager",
     },
     {
       img: "/t3.png",
-      title: "Chase",
-      subtitle: "Co-founder, Artist & Project Manager",
-    },
-    {
-      img: "/t4.png",
-      title: "Mohammad",
-      subtitle: "Co-founder, Artist & Marketing Manager",
-    },
-    {
-      img: "/t5.png",
-      title: "Yullia",
-      subtitle: "Illustration & Pixels",
-    },
-    {
-      img: "/t6.png",
-      title: "Omotosho",
-      subtitle: "Technology",
-    },
-    {
-      img: "/t7.png",
       title: "Hamid",
       subtitle: "Marketing & Community Engagement",
     },
     {
-      img: "/t8.png",
+      img: "/t4.png",
+      title: "Yullia",
+      subtitle: "Artist, Illustration & Pixels",
+    },
+    {
+      img: "/t5.png",
+      title: "Wahab",
+      subtitle: "Technology Development",
+    },
+    {
+      img: "/t6.png",
       title: "Rahul",
       subtitle: "Graphic Designer",
+    },
+    {
+      img: "/t7.png",
+      title: "Mbot",
+      subtitle: "Writer & Content Creation",
+    },
+    {
+      img: "/t8.png",
+      title: "Emmar",
+      subtitle: "Security Manager",
     },
   ];
   return (
@@ -57,6 +57,7 @@ const Team = () => {
           paddingTop: "80px",
         }}
         variant='h4'
+        fontFamily='Raleway'
       >
         OUR META BRAINS
       </Typography>
@@ -68,6 +69,7 @@ const Team = () => {
           textAlign: "center",
           marginBottom: "20px",
         }}
+        fontFamily='Raleway'
       >
         THE TEAM
       </Typography>
@@ -81,6 +83,7 @@ const Team = () => {
           }}
           variant='body1'
           paragraph
+          fontFamily='Raleway'
         >
           Our team is an excellent combination of technology and strategy. Most
           of the DWCC team members are experts from the traditional art industry
@@ -191,6 +194,7 @@ const Team = () => {
 
                       marginTop: "30px",
                     }}
+                    fontFamily='Raleway'
                   >
                     {person.title}
                   </Typography>
@@ -203,6 +207,7 @@ const Team = () => {
 
                       marginTop: "30px",
                     }}
+                    fontFamily='Raleway'
                   >
                     {person.subtitle}
                   </Typography>
@@ -248,8 +253,9 @@ const Team = () => {
                   textAlign: "center",
                   marginTop: "30px",
                 }}
+                fontFamily='Raleway'
               >
-                Mbot
+                Mox
               </Typography>
               <Typography
                 sx={{
@@ -260,8 +266,52 @@ const Team = () => {
                   textAlign: "center",
                   marginTop: "30px",
                 }}
+                fontFamily='Raleway'
               >
-                Writer & Content Creation
+                Collab manager
+              </Typography>
+            </Grid>
+            <Grid item sx={{ marginLeft: { sm: "190px", md: "100px" } }}>
+              <Card
+                sx={{
+                  height: { md: "250px", xs: "200px" },
+                  width: { md: "250px", xs: "200px" },
+                  borderRadius: "125px",
+                }}
+              >
+                <CardMedia
+                  image='/teamNew.png'
+                  sx={{
+                    height: { md: "250px", xs: "200px" },
+                    width: { md: "250px", xs: "200px" },
+                  }}
+                />
+              </Card>
+              <Typography
+                sx={{
+                  color: "#fff",
+                  fontWeight: "400",
+                  fontSize: "30px",
+                  marginBottom: "20px",
+                  textAlign: "center",
+                  marginTop: "30px",
+                }}
+                fontFamily='Raleway'
+              >
+                Falcon
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#4efd93",
+                  fontWeight: "400",
+                  fontSize: "17px",
+                  marginBottom: "20px",
+                  textAlign: "center",
+                  marginTop: "30px",
+                }}
+                fontFamily='Raleway'
+              >
+                Community Manager
               </Typography>
             </Grid>
           </Grid>
@@ -283,8 +333,8 @@ const Team = () => {
             height: "300px",
             width: "300px",
             position: "absolute",
-            bottom: "10%",
-            right: "-10%",
+            bottom: { lg: "10%", md: "-1%" },
+            right: { lg: "-10%", md: "1%" },
             display: { md: "block", xs: "none", sm: "none" },
           }}
         />

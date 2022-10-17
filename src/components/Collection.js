@@ -9,7 +9,7 @@ import {
 import React from "react";
 import c1 from "../assets/Media/c1.png";
 import c2 from "../assets/Media/c2.png";
-import c3 from "../assets/Media/c3.png";
+
 import c4 from "../assets/Media/c4.png";
 import c5 from "../assets/Media/c5.png";
 import c6 from "../assets/Media/c6.png";
@@ -62,7 +62,7 @@ const Collection = () => {
             >
               <img src={c1} style={{}} />
               <CardContent>
-                <Typography className={classes.typo}>
+                <Typography className={classes.typo} fontFamily='Raleway'>
                   Genesis Boss Sloth
                   <br />
                   Roob
@@ -84,7 +84,7 @@ const Collection = () => {
             >
               <CardMedia image={c2} className={classes.c2} />
               <CardContent>
-                <Typography className={classes.typo}>
+                <Typography className={classes.typo} fontFamily='Raleway'>
                   Sloth Roob Official
                   <br />
                   Collection
@@ -105,16 +105,21 @@ const Collection = () => {
                 borderRadius: "15px",
               }}
             >
-              <CardMedia image={c3} className={classes.c3} />
+              <CardMedia image='/mammoth.png' className={classes.c3} />
               <CardContent>
-                <Typography className={classes.typo}>MammothBoof</Typography>
+                <Typography className={classes.typo} fontFamily='Raleway'>
+                  MammothBoof
+                </Typography>
                 <Typography
                   sx={{
                     display: "flex",
                     alignItems: "center",
                   }}
                 >
-                  <Typography sx={{ color: "#9c9d9d", width: "100%" }}>
+                  <Typography
+                    sx={{ color: "#9c9d9d", width: "100%" }}
+                    fontFamily='Raleway'
+                  >
                     comming soon
                   </Typography>
                   <Typography
@@ -143,14 +148,19 @@ const Collection = () => {
             >
               <CardMedia image={c4} className={classes.c4} />
               <CardContent>
-                <Typography className={classes.typo}>SquirrelToot</Typography>
+                <Typography className={classes.typo} fontFamily='Raleway'>
+                  SquirrelToot
+                </Typography>
                 <Typography
                   sx={{
                     display: "flex",
                     alignItems: "center",
                   }}
                 >
-                  <Typography sx={{ color: "#9c9d9d", width: "100%" }}>
+                  <Typography
+                    sx={{ color: "#9c9d9d", width: "100%" }}
+                    fontFamily='Raleway'
+                  >
                     comming soon
                   </Typography>
                   <Typography
@@ -178,14 +188,19 @@ const Collection = () => {
             >
               <CardMedia image={c5} className={classes.c5} />
               <CardContent>
-                <Typography className={classes.typo}>TigerHooch</Typography>
+                <Typography className={classes.typo} fontFamily='Raleway'>
+                  TigerHooch
+                </Typography>
                 <Typography
                   sx={{
                     display: "flex",
                     alignItems: "center",
                   }}
                 >
-                  <Typography sx={{ color: "#9c9d9d", width: "100%" }}>
+                  <Typography
+                    sx={{ color: "#9c9d9d", width: "100%" }}
+                    fontFamily='Raleway'
+                  >
                     comming soon
                   </Typography>
                   <Typography
@@ -213,14 +228,19 @@ const Collection = () => {
             >
               <CardMedia image={c6} className={classes.c6} />
               <CardContent>
-                <Typography className={classes.typo}>WeaselWooz</Typography>
+                <Typography className={classes.typo} fontFamily='Raleway'>
+                  WeaselWooz
+                </Typography>
                 <Typography
                   sx={{
                     display: "flex",
                     alignItems: "center",
                   }}
                 >
-                  <Typography sx={{ color: "#9c9d9d", width: "100%" }}>
+                  <Typography
+                    sx={{ color: "#9c9d9d", width: "100%" }}
+                    fontFamily='Raleway'
+                  >
                     comming soon
                   </Typography>
                   <Typography

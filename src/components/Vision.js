@@ -18,6 +18,7 @@ const Vision = () => {
             textAlign: "center",
             paddingTop: "60px",
           }}
+          fontFamily='Raleway'
         >
           OUR VISION
         </Typography>
@@ -32,6 +33,7 @@ const Vision = () => {
             <img src={vision1} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
+              fontFamily='Raleway'
             >
               UNIQUE META IDENTITY
             </Typography>
@@ -40,6 +42,7 @@ const Vision = () => {
             <img src={vision2} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
+              fontFamily='Raleway'
             >
               BECOME PART OF THE FUTURE
             </Typography>
@@ -48,6 +51,7 @@ const Vision = () => {
             <img src={vision3} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
+              fontFamily='Raleway'
             >
               ECOSYSTEM MAPPING
             </Typography>
@@ -56,6 +60,7 @@ const Vision = () => {
             <img src={vision4} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
+              fontFamily='Raleway'
             >
               DIGITAL ENTERTAINMENT
             </Typography>

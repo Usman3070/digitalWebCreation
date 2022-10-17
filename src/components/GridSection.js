@@ -88,7 +88,7 @@ const GridSection = () => {
       state: false,
     },
     {
-      img: "/repHero.png",
+      img: "/gridNew.png",
       vision: "TEASER PROJECT",
       title: "AIRDROP COLLECTION",
       subtitle: "Boss Sloth Roob - Genesis Editions",
@@ -240,7 +240,7 @@ const GridSection = () => {
                             : index === 1
                             ? {
                                 position: "absolute",
-                                bottom: "-4%",
+                                bottom: "-1%",
                                 right: "-25%",
                                 maxWidth: "100%",
                                 height: "auto",
@@ -283,7 +283,7 @@ const GridSection = () => {
                       />
                     </Typography>
                   </CardContent>
-                  <CardContent>
+                  <CardContent sx={{ zIndex: "1" }}>
                     <Typography
                       sx={{
                         display: "flex",
@@ -295,7 +295,15 @@ const GridSection = () => {
                           color: "#fff",
                           fontWeight: "bold",
                           width: "100%",
+
+                          fontSize: {
+                            lg: "22px",
+                            md: "20px",
+                            sm: "16px",
+                            xs: "12px",
+                          },
                         }}
+                        fontFamily='Raleway'
                       >
                         {grid.vision}
                       </Typography>
@@ -312,7 +320,14 @@ const GridSection = () => {
                         color: "#fff",
                         fontWeight: "bold",
                         fontSize: "28px",
+                        fontSize: {
+                          lg: "22px",
+                          md: "20px",
+                          sm: "16px",
+                          xs: "12px",
+                        },
                       }}
+                      fontFamily='Raleway'
                     >
                       {grid.title}
                     </Typography>
@@ -321,7 +336,14 @@ const GridSection = () => {
                         color: "#4efd93",
                         fontWeight: "bold",
                         fontSize: "28px",
+                        fontSize: {
+                          lg: "22px",
+                          md: "20px",
+                          sm: "16px",
+                          xs: "12px",
+                        },
                       }}
+                      fontFamily='Raleway-bolder'
                     >
                       {grid.subtitle}
                     </Typography>
@@ -331,7 +353,18 @@ const GridSection = () => {
                           <>
                             <br />
                             <br />
-                            <Typography sx={{ color: "#fff" }}>
+                            <Typography
+                              sx={{
+                                color: "#fff",
+                                fontSize: {
+                                  lg: "22px",
+                                  md: "20px",
+                                  sm: "16px",
+                                  xs: "12px",
+                                },
+                              }}
+                              fontFamily='Raleway'
+                            >
                               {des}
                             </Typography>
                           </>
@@ -339,7 +372,18 @@ const GridSection = () => {
                       : grid?.description?.map((des, index) => (
                           <>
                             {index <= 1 && (
-                              <Typography sx={{ color: "#fff" }}>
+                              <Typography
+                                sx={{
+                                  color: "#fff",
+                                  fontSize: {
+                                    lg: "22px",
+                                    md: "20px",
+                                    sm: "16px",
+                                    xs: "12px",
+                                  },
+                                }}
+                                fontFamily='Raleway'
+                              >
                                 {des}
                               </Typography>
                             )}

@@ -24,6 +24,7 @@ export default function SimpleAccordion() {
           padding: "80px",
           fontSize: { lg: "32px", md: "32px", sm: "24px", xs: "16px" },
         }}
+        fontFamily='Raleway'
       >
         HOW TO BUY NON-FUNGIBLE TOKEN
       </Typography>
@@ -35,12 +36,24 @@ export default function SimpleAccordion() {
           id='panel1a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             Where can I purchase/mint/redeem?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             You can only mint on our site soon.
           </Typography>
         </AccordionDetails>
@@ -53,12 +66,24 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             When can I purchase/mint/redeem?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             We are going to have only one minting period. The Public Sale will
             be announced on our social media pages and on our website.
           </Typography>
@@ -72,12 +97,24 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             What is a redeemable free mint?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             A redeemable free mint is a free NFT for which you only have to pay
             gas and transaction fees.
           </Typography>
@@ -91,12 +128,24 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             When is the Public Sale?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             We are going to have only one minting period. The Public Sale will
             be announced on our social media pages and on our website. Ensure to
             use only links from the official DWCC Discord server channel.
@@ -111,15 +160,33 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             How do I mint in the Public Sale?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             Through the minting page and link your registered wallet.
           </Typography>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             The site will display the current auction price and the quantity of
             mint available for purchase. The next step is for you to choose the
             quantity you would like to purchase, not exceeding the maximum
@@ -137,13 +204,25 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             What is the next stage in the event where the Public Sale doesn’t
             sell out?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             The Sale will continue until the NFTs are sold out or the team
             determines another course of action.
           </Typography>
@@ -157,12 +236,24 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             Public Sale or Secondary market; when is the best time to mint?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             This largely depends on the buyer and his aims.
           </Typography>
         </AccordionDetails>
@@ -175,12 +266,24 @@ export default function SimpleAccordion() {
           id='panel2a-header'
           sx={{ backgroundColor: "#070517" }}
         >
-          <Typography sx={{ color: "#fff", fontSize: "26px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             What are Gas fees?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: "#070517" }}>
-          <Typography sx={{ color: "#fff", fontSize: "22px" }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             Gas fees are service fares paid to the miner who is charged with
             executing the cryptographic computation to decode the issue enabling
             user verification and security of a block to be put onto the
