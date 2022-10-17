@@ -3,8 +3,9 @@ import Btn from "./Btn";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Box, Button, TextareaAutosize, TextField } from "@mui/material";
-
+import useStyles from "../styles";
 const ContactComp = () => {
+  const classes = useStyles();
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -23,24 +24,28 @@ const ContactComp = () => {
       <form onSubmit={formik.handleSubmit} style={{ color: "white" }}>
         <Box
           sx={{
-            width: 500,
-            maxWidth: "100%",
+            width: { lg: "500px", md: "500px", sm: "500px", xs: "300px" },
+            maxWidth: { lg: "100%", md: "100%", sm: "100%", xs: "100%" },
             color: "white",
+            // color: "white",
             //   borderRadius: "20px",
+            // alignItems: "center",
+            // alignText: "center",
           }}
         >
           <TextField
             fullWidth
             placeholder='Name'
             id='fullWidth'
+            className={classes.input}
             sx={{
               backgroundColor: "#04212b",
               border: "none !important",
               borderColor: "transparent",
               // borderRadius: "20px",
               marginBottom: "20px",
-              color: "white !important",
               width: { md: "100%", sm: "80%", xs: "70%" },
+              color: "white",
             }}
           />
           <TextField
@@ -52,23 +57,30 @@ const ContactComp = () => {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.email}
+            className={classes.input}
             sx={{
               backgroundColor: "#04212b",
+
               marginBottom: "20px",
               width: { md: "100%", sm: "80%", xs: "70%" },
+              color: "white",
             }}
           />
           {formik.touched.email && formik.errors.email ? (
-            <div style={{ color: "red" }}>{formik.errors.email}</div>
+            <div style={{ color: "red", textAlign: "left" }}>
+              {formik.errors.email}
+            </div>
           ) : null}
           <TextField
             placeholder='Message'
             multiline
             rows={3}
             maxRows={4}
+            className={classes.input}
             sx={{
               backgroundColor: "#04212b",
               width: { md: "100%", sm: "80%", xs: "70%" },
+              color: "white",
             }}
           />
           {/* <TextareaAutosize
@@ -88,9 +100,10 @@ const ContactComp = () => {
               padding: "18px",
               width: { md: "100%", sm: "80%", xs: "70%" },
               borderRadius: "16px",
-              color: "#fff",
+
               fontWeight: "bold",
               mt: "110px",
+              color: "white",
             }}
           >
             SEND MESSAGE

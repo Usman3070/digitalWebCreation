@@ -169,5 +169,8 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     marginTop: "-4px",
   },
+  input: {
+    color: "#fff",
+  },
 }));
 export default useStyles;

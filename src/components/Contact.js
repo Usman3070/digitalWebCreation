@@ -3,7 +3,7 @@ import React from "react";
 import ContactComp from "./ContactComp";
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id='contact' style={{ alignContent: "center", color: "white" }}>
       <Typography
         sx={{
           color: "#9c9d9d",
@@ -34,8 +34,23 @@ const Contact = () => {
       <Box
         sx={{
           display: "flex",
-          justifyContent: "center",
-          width: { md: "100%", sm: "60%", xs: "40%" },
+          justifyContent: {
+            lg: "center",
+            md: "center",
+            sm: "center",
+            xs: "center",
+          },
+          alignItems: {
+            lg: "center",
+            md: "center",
+            sm: "center",
+            xs: "center",
+          },
+          // margin: "auto",
+          textAlign: "center",
+          color: "white !important",
+
+          width: { md: "100%", sm: "100%", xs: "100%" },
         }}
       >
         <ContactComp />
