@@ -42,7 +42,7 @@ const FaqComp = () => {
           color: "#4efd93",
           fontWeight: "500",
           textAlign: "center",
-          paddingBottom: "120px",
+          // paddingBottom: "120px",
           fontSize: { lg: "28px", md: "28px", sm: "22px", xs: "14px" },
         }}
         fontFamily='Raleway'
@@ -76,7 +76,7 @@ const FaqComp = () => {
           textAlign: "center",
           marginBottom: "20px",
           fontSize: "14px",
-          paddingTop: "80px",
+          paddingTop: "10px",
         }}
         variant='h4'
         fontFamily='Raleway'

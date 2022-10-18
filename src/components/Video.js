@@ -4,14 +4,16 @@ import React from "react";
 const Video = () => {
   return (
     <>
-      <Typography sx={{ display: "flex", justifyContent: "center" }}>
+      <Typography
+        sx={{ display: "flex", justifyContent: "center", padding: "20px" }}
+      >
         <CardMedia
           component='video'
           image='/video.mp4'
           controls
           sx={{
-            maxWidth: { md: "50%", xs: "50%" },
-            width: { md: "100%", xs: "60%" },
+            maxWidth: { md: "50%", xs: "100%" },
+            width: { md: "100%", xs: "100%" },
             borderRadius: "20px",
           }}
         />

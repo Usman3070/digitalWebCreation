@@ -127,7 +127,7 @@ export default function SimpleAccordion() {
             }}
             fontFamily='Raleway'
           >
-            Mono, Co-founder, Artist & Business Manager.
+            Mono, Co-founder, Business Manage.
           </Typography>
           <Typography
             sx={{
@@ -136,48 +136,11 @@ export default function SimpleAccordion() {
             }}
             fontFamily='Raleway'
           >
-            Luke, Co-founder, Business Development.
+            Luke, Co-founder, Business Development Manager.
           </Typography>
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
-            }}
-            fontFamily='Raleway'
-          >
-            Chase, Co-founder, Artist & Project Manager.
-          </Typography>
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
-            }}
-            fontFamily='Raleway'
-          >
-            Mohammad, Co-founder, Artist & Marketing Manager.
-          </Typography>
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
-            }}
-            fontFamily='Raleway'
-          >
-            Yullia, Illustration & Pixels.
-          </Typography>
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
-            }}
-            fontFamily='Raleway'
-          >
-            Omotosho, Technology Development.
-          </Typography>
-          <Typography
-            sx={{
-              color: "#fff",
-              fontSize: "22px",
               fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
             }}
             fontFamily='Raleway'
@@ -191,7 +154,7 @@ export default function SimpleAccordion() {
             }}
             fontFamily='Raleway'
           >
-            Rahul, Graphic Designer.
+            Yullia, Artist, Illustration & Pixels.
           </Typography>
           <Typography
             sx={{
@@ -200,7 +163,53 @@ export default function SimpleAccordion() {
             }}
             fontFamily='Raleway'
           >
+            Wahab, Technology Development Manager.
+          </Typography>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
+            Rahul, Graphic Designer.
+          </Typography>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: "22px",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
             Mbot, Writer & Content Creation.
+          </Typography>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
+            Emmar, Security Manager.
+          </Typography>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
+            Mox, Collab manager.
+          </Typography>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+            }}
+            fontFamily='Raleway'
+          >
+            Falcon, Community Manager.
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -7,7 +7,7 @@ const CollectionComp = () => {
   const classes = useStyles();
   return (
     <section id='collections'>
-      <Box sx={{ display: { md: "block", xs: "none" } }}>
+      <Box>
         <Typography
           sx={{
             color: "#9c9d9d",
@@ -26,11 +26,17 @@ const CollectionComp = () => {
           variant='h3'
           sx={{
             color: "#fff",
-            paddingBottom: "300px",
+            paddingBottom: "100px",
             textAlign: "center",
-            marginBottom: "-130px",
+            fontSize: {
+              xl: "50px",
+              lg: "44px",
+              md: "36px",
+              sm: "32px",
+              xs: "28px",
+            },
           }}
-          fontFamily='Raleway'
+          fontFamily='Raleway-bolder'
         >
           OUR NFT COLLECTIONS
         </Typography>

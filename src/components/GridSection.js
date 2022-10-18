@@ -55,11 +55,14 @@ const GridSection = () => {
       title: "EXCLUSIVITY",
       subtitle: "Perks for Holder",
       description: [
-        "- Holders of these unique NFTs will giving priority position to acquire future released NFTs . Yes, we call it “ Roobs List “ , we don’t call it “ Whitelist “ when you are with us.",
-        "- Collect, Trade & have fun with our NFTs in market places .",
-        "Special edition of “ The Chronicles of Roob “ story book once published. Exclusive membership to the “ Roobs “ club and their community giveaways.",
-        "- Exclusive access to projects voting system and holders votes.",
-        "- Exclusive access to partner’s collection at a discounted price.",
+        "-	Holders of Roobs NFTs will be giving priority position to acquire future released NFTs . Yes, we call it “ Roobs List “ , we don’t call it “ Whitelist “ when you with us. Guaranteed Free Mint on All Future Collections. ",
+        "-	Special NFT Airdrops to large holders.",
+        "-	Staking platform rewards & Future $ROOB token airdrop ",
+        "-	Exclusive membership to the Alpha Roobs club  and their community Cash & Raffle giveaways. Exclusive access to Ecosystem Partners, ALPHA Group, ALPHA Calls, Marketplace & DAO.",
+        "-	Access to special edition of “ The Chronicles of Roob “ story book once published in 2023. ",
+        "-	Early Access to the Roob Chronicles BETA version Epic game in 2023. ",
+        "-	Exclusive access to projects voting system and holders votes .",
+        "-	Exclusive access to partner’s collection at a discounted price",
       ],
       btnTitle: "SEE MORE",
 
@@ -73,13 +76,13 @@ const GridSection = () => {
       subtitle: "Sloth Roob Official Collection",
       description: [
         "Sloth Roob is the first most iconic digital character from DWCC’s book ”The Chronicles of Roob”.",
-        "-	Special NFT Airdrops to large holders.",
-        "-	Staking platform rewards & Future $ROOB token airdrop ",
-        "-	Exclusive membership to the Alpha Roobs club  and their community Cash & Raffle giveaways. Exclusive access to Ecosystem Partners, ALPHA Group, ALPHA Calls, Marketplace & DAO.",
-        "-	Access to special edition of “ The Chronicles of Roob “ story book once published in 2023. ",
-        "-	Early Access to the Roob Chronicles BETA version Epic game in 2023. ",
-        "-	Exclusive access to projects voting system and holders votes .",
-        "-	Exclusive access to partner’s collection at a discounted price",
+        "-	Some would argue Sloth Roob is from the ice age period. Sloth Roob was in a deep, centuries-long sleep and just woke up.",
+        "-	After a century-long sleep, a total of 5353 Sloth Roobs are now roaming the Ethereum metaverse in search of their friends human fans & collectors.",
+        "-	Sloth Roob NFT is a collection of 5353 unique iconic digital characters inspired by the Digital Web Creation Club's book - ``The Chronicles of Roob``.",
+        "-	This limited edition comprises characters that have its special rarity and traits providing a secure certification of authenticity.",
+        "-	We are building something phenomenal as DWCC will become a premier hub for crypto enthusiasts, NFTs and SlothRoob fans.",
+        "-	Owners of these digital NFTs will be entitled to special perks in the Sloth Roob metaverse in the future as this is a key that grants holders entrance to the metaverse we are building.",
+        "-	Sloth Roob NFTs are yours to trade and collect.",
       ],
 
       btnTitle: "SEE MORE",
@@ -88,15 +91,16 @@ const GridSection = () => {
       state: false,
     },
     {
-      img: "/gridNew.png",
+      img: "/newHero.png",
       vision: "TEASER PROJECT",
       title: "AIRDROP COLLECTION",
       subtitle: "Boss Sloth Roob - Genesis Editions",
       description: [
-        "-	Ice Age Time ",
+        "-	Ice Age Time  ",
         "-	The Second Collection ",
-        "-	Mammoth Boof Collection ",
-        "-	This is the second iconic digital character from DWCC’s book ”Roob Chronicles ”. Mammoth Boof NFT is a collection of 4,343 unique iconic digital characters inspired by the Digital Web Creation Club's book - “Roob Chronicles ”. Mammoth Boof was founded by Sloth Roob, Mammoth Boof who was deep inside his cave, he had probably gone that far to hide from the cold. Roob got Boof's frozen figure out of the cave, with the help of the sun and its slow and steady hands he was able to break the ice using a rock and unfreeze him.Mammoth Boof limited edition comprises characters that have its special rarity and traits providing a secure certification of authenticity",
+        "-	Mammoth Boof Collection  ",
+        "-	This is the second iconic digital character from DWCC’s book ”Roob Chronicles ”. Mammoth Boof NFT is a collection of 4,343 unique iconic digital characters inspired by the Digital Web Creation Club's book - “Roob Chronicles ”. Mammoth Boof was founded by Sloth Roob, Mammoth Boof who was deep inside his cave, he had probably gone that far to hide from the cold. Roob got Boof's frozen figure out of the cave, with the help of the sun and its slow and steady hands he was able to break the ice using a rock and unfreeze him. ",
+        "-  Mammoth Boof limited edition comprises characters that have its special rarity and traits providing a secure certification of authenticity",
       ],
       btnTitle: "SEE MORE",
       image: "/sphere5.png",
@@ -166,7 +170,17 @@ const GridSection = () => {
                     position: "relative",
                   }}
                 >
-                  <img src={grid.img} />
+                  <img
+                    src={grid.img}
+                    style={
+                      index === 5
+                        ? {
+                            border: "2px solid #4efd93",
+                            borderRadius: "18px",
+                          }
+                        : {}
+                    }
+                  />
                   {/* <Typography>
                     <img
                       src={grid.image}
@@ -296,58 +310,123 @@ const GridSection = () => {
                           fontWeight: "bold",
                           width: "100%",
 
-                          fontSize: {
-                            lg: "22px",
-                            md: "20px",
-                            sm: "16px",
-                            xs: "12px",
-                          },
+                          fontSize: "16px",
+                          textAlign: { xs: "center", sm: "center", lg: "left" },
                         }}
-                        fontFamily='Raleway'
+                        fontFamily='Raleway-bolder'
                       >
                         {grid.vision}
                       </Typography>
                       <Typography
-                        sx={{
-                          height: "1px",
-                          backgroundColor: "#fff",
-                          width: "100%",
-                        }}
+                        sx={
+                          index === 0
+                            ? {
+                                marginLeft: "-120px",
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "100%",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : index === 1
+                            ? {
+                                // marginLeft: "-20px",
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "35%",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : index === 2
+                            ? {
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "19%",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : index === 3
+                            ? {
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "100%",
+                                marginLeft: "-22px",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : index === 4
+                            ? {
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "80%",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : index === 5
+                            ? {
+                                height: "1px",
+                                backgroundColor: "#fff",
+                                width: "100%",
+                                marginLeft: "-20px",
+                                display: {
+                                  lg: "block",
+                                  md: "block",
+                                  sm: "none",
+                                  xs: "none",
+                                },
+                              }
+                            : {}
+                        }
                       ></Typography>
                     </Typography>
+                    <br />
                     <Typography
                       sx={{
                         color: "#fff",
                         fontWeight: "bold",
                         fontSize: "28px",
-                        fontSize: {
-                          lg: "22px",
-                          md: "20px",
-                          sm: "16px",
-                          xs: "12px",
-                        },
+                        fontSize: "22px",
+                        textAlign: { xs: "center", sm: "center", lg: "left" },
                       }}
-                      fontFamily='Raleway'
+                      fontFamily='Raleway-bolder'
+                      variant='h3'
                     >
                       {grid.title}
                     </Typography>
+                    <br />
                     <Typography
                       sx={{
                         color: "#4efd93",
                         fontWeight: "bold",
                         fontSize: "28px",
-                        fontSize: {
-                          lg: "22px",
-                          md: "20px",
-                          sm: "16px",
-                          xs: "12px",
-                        },
+                        fontSize: "30px",
+                        textAlign: { xs: "center", sm: "center", lg: "left" },
                       }}
                       fontFamily='Raleway-bolder'
                     >
                       {grid.subtitle}
                     </Typography>
-
+                    <br />
                     {grid.state
                       ? grid?.description?.map((des, index) => (
                           <>
@@ -356,11 +435,11 @@ const GridSection = () => {
                             <Typography
                               sx={{
                                 color: "#fff",
-                                fontSize: {
-                                  lg: "22px",
-                                  md: "20px",
-                                  sm: "16px",
-                                  xs: "12px",
+                                fontSize: "100%",
+                                textAlign: {
+                                  xs: "center",
+                                  sm: "center",
+                                  lg: "left",
                                 },
                               }}
                               fontFamily='Raleway'
@@ -375,11 +454,11 @@ const GridSection = () => {
                               <Typography
                                 sx={{
                                   color: "#fff",
-                                  fontSize: {
-                                    lg: "22px",
-                                    md: "20px",
-                                    sm: "16px",
-                                    xs: "12px",
+                                  fontSize: "100%",
+                                  textAlign: {
+                                    xs: "center",
+                                    sm: "center",
+                                    lg: "left",
                                   },
                                 }}
                                 fontFamily='Raleway'

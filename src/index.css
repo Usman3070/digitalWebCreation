@@ -27,6 +27,17 @@ code {
   font-family: "Raleway-bolder";
   src: url("/public/fonts/Raleway-ExtraBold.ttf");
 }
-.textmui {
-  color: #fff !important;
+.collectionContainer {
+  background-image: url("/public/bg1.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: "#070517";
 }
+/* @media (max-width: 320px) {
+  .collectionContainer {
+    padding-bottom: 200px;
+  }
+} */

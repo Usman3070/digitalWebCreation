@@ -101,17 +101,19 @@ const HeroSection = () => {
             image={hero1}
             className={classes.image1}
             sx={{
-              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
-              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              height: { md: "180px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "150px", lg: "280px", sm: "0px", xs: "0px" },
               marginLeft: "55px",
+              border: "3px solid #573bfe",
               borderRadius: "15px",
             }}
           />
           <CardMedia
             image='/repHero.png'
             sx={{
-              height: { md: "200", lg: "350px", sm: "200px", xs: "200px" },
-              width: { md: "170px", lg: "280px", sm: "170px", xs: "170px" },
+              height: { md: "180", lg: "350px", sm: "200px", xs: "200px" },
+              width: { md: "150px", lg: "280px", sm: "170px", xs: "170px" },
+              border: "3px solid #573bfe",
               borderRadius: "15px",
               position: "absolute",
               right: { lg: "-35%", md: "-46%" },
@@ -123,8 +125,9 @@ const HeroSection = () => {
             image={hero3}
             className={classes.image3}
             sx={{
-              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
-              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              height: { md: "180px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "150px", lg: "280px", sm: "0px", xs: "0px" },
+              border: "3px solid #573bfe",
               borderRadius: "15px",
               position: "absolute",
               right: { lg: "-73%", md: "-85%" },
@@ -136,8 +139,9 @@ const HeroSection = () => {
             image='/repHero2.png'
             className={classes.image4}
             sx={{
-              height: { md: "200px", lg: "350px", sm: "0px", xs: "0px" },
-              width: { md: "170px", lg: "280px", sm: "0px", xs: "0px" },
+              height: { md: "180px", lg: "350px", sm: "0px", xs: "0px" },
+              width: { md: "150px", lg: "280px", sm: "0px", xs: "0px" },
+              border: "3px solid #573bfe",
               borderRadius: "15px",
               position: "absolute",
               transform: "rotate(-20deg)",
@@ -152,7 +156,7 @@ const HeroSection = () => {
               width: { lg: "230px", md: "180px" },
               position: "absolute",
               transform: "rotate(93deg)",
-              bottom: { lg: "-100%", md: "-30%" },
+              bottom: { lg: "-100%", md: "-25%" },
               right: { lg: "-80%", md: "-90%" },
             }}
           />

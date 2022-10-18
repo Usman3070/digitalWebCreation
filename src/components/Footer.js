@@ -1,4 +1,4 @@
-import { Box, Card, CardMedia, Grid, Typography } from "@mui/material";
+import { Box, Button, Card, CardMedia, Grid, Typography } from "@mui/material";
 import React from "react";
 import logo from "../assets/Media/logo.png";
 import linktree from "../assets/Media/linktree.svg";
@@ -63,7 +63,7 @@ const Footer = () => {
             spacing={4}
             sx={{ display: "flex", justifyContent: "center" }}
           >
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab("https://linktr.ee/DigitalWebCreationClub")
@@ -79,7 +79,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() => openInNewTab("https://discord.com/invite/dwcc")}
               >
@@ -94,7 +94,7 @@ const Footer = () => {
               </div>
             </Grid>
 
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() => openInNewTab("https://twitter.com/SlothRoob")}
               >
@@ -108,7 +108,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab("https://www.facebook.com/TheChroniclesofRoob")
@@ -124,7 +124,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab("https://www.instagram.com/sloth_roob/")
@@ -140,7 +140,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab(
@@ -158,7 +158,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab("https://www.tiktok.com/@slothroobnft")
@@ -174,7 +174,7 @@ const Footer = () => {
                 />
               </div>
             </Grid>
-            <Grid item md={1.5} xs={3}>
+            <Grid item md={1.2} xs={3}>
               <div
                 onClick={() =>
                   openInNewTab("https://digitalwebcreation.medium.com/")
@@ -189,6 +189,12 @@ const Footer = () => {
                 />
               </div>
             </Grid>
+            {/* <Grid item md={1.2} xs={3}>
+              <Button variant='contained'>OpenSea</Button>
+            </Grid>
+            <Grid item md={1.2} xs={3}>
+              <Button variant='contained'>OpenSea</Button>
+            </Grid> */}
           </Grid>
         </Grid>
       </Box>

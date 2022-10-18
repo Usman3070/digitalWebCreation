@@ -79,6 +79,7 @@ function App() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
+          paddingTop: { lg: "60px", xs: "20px" },
         }}
       >
         <CollectionComp />
@@ -92,10 +93,10 @@ function App() {
         <Collection />
       </Box>
       <Box
-        className={classes.collectionContainer}
+        className='collectionContainer'
         sx={{
-          paddingBottom: { lg: "0%", md: "0%", sm: "250%", xs: "640%" },
           display: { lg: "none", md: "none", sm: "block", xs: "block" },
+          // marginTop: "-250px",
         }}
       >
         <SecondCollection />

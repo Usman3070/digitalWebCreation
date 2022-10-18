@@ -27,7 +27,7 @@ const RoadmapDesc = (props) => {
             fontSize: "16px",
             fontWeight: "800",
           }}
-          fontFamily='Raleway'
+          fontFamily='Raleway-bolder'
         >
           {props.date}
         </Typography>

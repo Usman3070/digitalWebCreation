@@ -21,14 +21,13 @@ const ContactComp = () => {
   });
   return (
     <>
-      <form onSubmit={formik.handleSubmit} style={{ color: "white" }}>
+      <form onSubmit={formik.handleSubmit}>
         <Box
           sx={{
-            width: { lg: "500px", md: "500px", sm: "500px", xs: "300px" },
+            width: { lg: "500px", md: "500px", sm: "500px", xs: "320px" },
             maxWidth: { lg: "100%", md: "100%", sm: "100%", xs: "100%" },
-            color: "white",
             // color: "white",
-            //   borderRadius: "20px",
+            // borderRadius: "20px",
             // alignItems: "center",
             // alignText: "center",
           }}
@@ -37,15 +36,17 @@ const ContactComp = () => {
             fullWidth
             placeholder='Name'
             id='fullWidth'
-            className={classes.input}
+            className='textfield'
             sx={{
               backgroundColor: "#04212b",
               border: "none !important",
               borderColor: "transparent",
               // borderRadius: "20px",
               marginBottom: "20px",
-              width: { md: "100%", sm: "80%", xs: "70%" },
-              color: "white",
+              width: { md: "100%", sm: "80%", xs: "100%" },
+              "& .MuiInputBase-root": {
+                color: "#9c9d9d",
+              },
             }}
           />
           <TextField
@@ -62,12 +63,16 @@ const ContactComp = () => {
               backgroundColor: "#04212b",
 
               marginBottom: "20px",
-              width: { md: "100%", sm: "80%", xs: "70%" },
-              color: "white",
+              width: { md: "100%", sm: "80%", xs: "100%" },
+              "& .MuiInputBase-root": {
+                color: "#9c9d9d",
+              },
             }}
           />
           {formik.touched.email && formik.errors.email ? (
-            <div style={{ color: "red", textAlign: "left" }}>
+            <div
+              style={{ color: "red", textAlign: "left", marginLeft: "10px" }}
+            >
               {formik.errors.email}
             </div>
           ) : null}
@@ -79,8 +84,11 @@ const ContactComp = () => {
             className={classes.input}
             sx={{
               backgroundColor: "#04212b",
-              width: { md: "100%", sm: "80%", xs: "70%" },
-              color: "white",
+              width: { md: "100%", sm: "80%", xs: "100%" },
+              "& .MuiInputBase-root": {
+                color: "#9c9d9d",
+                border: "transparent",
+              },
             }}
           />
           {/* <TextareaAutosize

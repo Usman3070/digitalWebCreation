@@ -8,7 +8,7 @@ import vision4 from "../assets/Media/vision4.png";
 const Vision = () => {
   return (
     <>
-      <Container sx={{ paddingTop: "40px" }}>
+      <Container>
         <Typography
           sx={{
             color: "#fff",
@@ -18,7 +18,7 @@ const Vision = () => {
             textAlign: "center",
             paddingTop: "60px",
           }}
-          fontFamily='Raleway'
+          fontFamily='Raleway-bolder'
         >
           OUR VISION
         </Typography>
@@ -33,7 +33,7 @@ const Vision = () => {
             <img src={vision1} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
-              fontFamily='Raleway'
+              fontFamily='Raleway-bolder'
             >
               UNIQUE META IDENTITY
             </Typography>
@@ -42,7 +42,7 @@ const Vision = () => {
             <img src={vision2} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
-              fontFamily='Raleway'
+              fontFamily='Raleway-bolder'
             >
               BECOME PART OF THE FUTURE
             </Typography>
@@ -51,7 +51,7 @@ const Vision = () => {
             <img src={vision3} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
-              fontFamily='Raleway'
+              fontFamily='Raleway-bolder'
             >
               ECOSYSTEM MAPPING
             </Typography>
@@ -60,7 +60,7 @@ const Vision = () => {
             <img src={vision4} height='270px' width='270px' />
             <Typography
               sx={{ color: "#fff", fontWeight: "bold", textAlign: "center" }}
-              fontFamily='Raleway'
+              fontFamily='Raleway-bolder'
             >
               DIGITAL ENTERTAINMENT
             </Typography>

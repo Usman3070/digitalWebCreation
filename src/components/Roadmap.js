@@ -59,25 +59,26 @@ const Roadmap = () => {
   ];
   const classes = useStyle();
   return (
-    <section id='roadmap' style={{ paddingBottom: "250px" }}>
+    <section id='roadmap'>
       <Box sx={{ position: "relative" }}>
         <Typography
           sx={{
             color: "#fff",
             fontWeight: "bold",
-            fontSize: "28px",
+            fontSize: { lg: "50px", md: "50px", sm: "46px", xs: "40px" },
             display: "block",
             textAlign: "center",
-            paddingTop: "260px",
-            marginBottom: "80px",
+            paddingTop: { lg: "140px", sm: "100px", xs: "60px" },
+            marginBottom: "20px",
           }}
+          fontFamily='Raleway-border'
         >
           ROADMAP
         </Typography>
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "5.8%", md: "5.5%" },
+            bottom: { lg: "6.3%", md: "6%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -95,7 +96,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "14.5%", md: "13.7%" },
+            bottom: { lg: "15.8%", md: "15%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -113,7 +114,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "23.2%", md: "22%" },
+            bottom: { lg: "25.3%", md: "24.3%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -131,7 +132,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "32%", md: "30.5%" },
+            bottom: { lg: "34.8%", md: "33.6%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -149,7 +150,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "41%", md: "39.8%" },
+            bottom: { lg: "44.4%", md: "44%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -167,7 +168,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "50%", md: "50%" },
+            bottom: { lg: "54.3%", md: "55.4%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -185,7 +186,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "60.5%", md: "61.5%" },
+            bottom: { lg: "65.4%", md: "68%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -203,7 +204,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "69%", md: "70.7%" },
+            bottom: { lg: "75%", md: "78%" },
             left: { lg: "23.5%", md: "26.8%" },
 
             display: { md: "block", sm: "none", xs: "none" },
@@ -237,7 +238,13 @@ const Roadmap = () => {
             <img src={rd2} className={classes.rd2} />
             <img src={rd3} className={classes.rd3} />
           </Grid>
-          <Grid item md={8} sm={8} xs={12}>
+          <Grid
+            item
+            md={8}
+            sm={8}
+            xs={12}
+            sx={{ margin: { sm: "auto", md: "0px", lg: "0px" } }}
+          >
             {roadMapContent.map((roadmap, index) => (
               <>
                 <Box
@@ -333,7 +340,7 @@ const Roadmap = () => {
                                 transform: "rotate(180deg)",
                                 paddingBlockEnd: "24px",
                                 marginBlockStart: "32px",
-                                color: "#573bfe",
+                                color: "#4efd93",
                                 fontSize: "16px",
                                 fontWeight: "800",
                               }

@@ -7,213 +7,241 @@ import c3 from "../assets/Media/c3.png";
 import c4 from "../assets/Media/c4.png";
 import c5 from "../assets/Media/c5.png";
 import c6 from "../assets/Media/c6.png";
-
 const SecondCollection = () => {
   const classes = useStyles();
   return (
-    <Grid container md={12} sm={12} xs={12}>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image={c1}
+    <>
+      <Grid container md={12} sm={12} xs={12}>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image={c1}
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              Genesis Boss Sloth Roob
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image={c2}
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                }}
+                fontFamily='Raleway'
+              >
+                Genesis Boss Sloth Roob
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image={c2}
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              Sloth Roob Official Collection
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image='/mammoth.png'
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                }}
+                fontFamily='Raleway'
+              >
+                Sloth Roob Official Collection
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image='/mammoth.png'
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              MammothBoof
-            </Typography>
-            <Typography
-              sx={{
-                marginLeft: "80px",
-                color: "#9c9d9d",
-              }}
-              fontFamily='Raleway'
-            >
-              coming soon
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image={c1}
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                  textAlign: "center",
+                }}
+                fontFamily='Raleway'
+              >
+                MammothBoof
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#9c9d9d",
+                  textAlign: "center",
+                }}
+                fontFamily='Raleway'
+              >
+                coming soon
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image={c1}
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              Genesis Boss Sloth Roob
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image={c1}
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                }}
+                fontFamily='Raleway'
+              >
+                Genesis Boss Sloth Roob
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#9c9d9d",
+                  textAlign: "center",
+                }}
+                fontFamily='Raleway'
+              >
+                coming soon
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image={c1}
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              Genesis Boss Sloth Roob
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item md={12} sm={12} xs={12} sx={{ padding: "20px" }}>
-        <Card
-          className={classes.Ccard1}
-          sx={{
-            backgroundColor: "#573bfe",
-            padding: "23px",
-            borderRadius: "15px",
-          }}
-        >
-          <CardMedia
-            image={c1}
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                }}
+                fontFamily='Raleway'
+              >
+                Genesis Boss Sloth Roob
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#9c9d9d",
+                  textAlign: "center",
+                }}
+                fontFamily='Raleway'
+              >
+                coming soon
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "20px" }}>
+          <Card
+            className={classes.Ccard1}
             sx={{
-              height: "270px",
-              width: "250px",
-              margin: "auto",
+              backgroundColor: "#573bfe",
+              padding: "23px",
+              borderRadius: "15px",
             }}
-          />
-          <CardContent>
-            <Typography
+          >
+            <CardMedia
+              image={c1}
               sx={{
-                marginLeft: "80px",
-                color: "#fff",
-                fontWeight: "600",
-                fontSize: "19px",
+                height: "270px",
+                width: "250px",
+                margin: "auto",
               }}
-              fontFamily='Raleway'
-            >
-              Genesis Boss Sloth Roob
-            </Typography>
-          </CardContent>
-        </Card>
+            />
+            <CardContent>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontWeight: "600",
+                  fontSize: "19px",
+                }}
+                fontFamily='Raleway'
+              >
+                Genesis Boss Sloth Roob
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#9c9d9d",
+                  textAlign: "center",
+                }}
+                fontFamily='Raleway'
+              >
+                coming soon
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
       </Grid>
-    </Grid>
+    </>
   );
 };
 

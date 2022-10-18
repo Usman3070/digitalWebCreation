@@ -25,9 +25,15 @@ const Whitepapers = () => {
           fontWeight: "800",
           textAlign: "center",
           marginBottom: "20px",
-          marginTop: "-2px",
+          marginTop: {
+            xs: "-4px",
+            sm: "-4px",
+            md: "0px",
+            lg: "0px",
+            xl: "0px",
+          },
         }}
-        fontFamily='Raleway'
+        fontFamily='Raleway-bolder'
       >
         OUR FILES
       </Typography>
@@ -38,7 +44,7 @@ const Whitepapers = () => {
           textAlign: "center",
           fontSize: "34px",
         }}
-        fontFamily='Raleway'
+        fontFamily='Raleway-bolder'
       >
         WHITEPAPERS
       </Typography>
@@ -54,16 +60,32 @@ const Whitepapers = () => {
         >
           <Grid item md={4} xs={12}>
             <Card
-              className={classes.WhitepaperCard}
               sx={{
                 backgroundColor: "#04212b",
                 borderRadius: "20px",
+
+                paddingTop: { lg: "30px", md: "30px", sm: "20px", xs: "70px" },
               }}
             >
               <CardMedia
                 image={w1}
-                className={classes.Wimage}
-                sx={{ margin: "auto" }}
+                sx={{
+                  margin: "auto",
+                  height: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                  width: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                }}
               />
               <CardContent>
                 <Typography
@@ -72,7 +94,7 @@ const Whitepapers = () => {
                     fontWeight: "400",
                     fontSize: "26px",
                     letterSpacing: "2px",
-                    marginLeft: { lg: "23px", md: "23px", xs: "13px" },
+                    textAlign: "center",
                   }}
                   fontFamily='Raleway'
                 >
@@ -91,13 +113,31 @@ const Whitepapers = () => {
           </Grid>
           <Grid item md={4} xs={12}>
             <Card
-              className={classes.WhitepaperCard}
-              sx={{ backgroundColor: "#04212b", borderRadius: "20px" }}
+              sx={{
+                backgroundColor: "#04212b",
+                borderRadius: "20px",
+                paddingTop: { lg: "30px", md: "30px", sm: "20px", xs: "70px" },
+              }}
             >
               <CardMedia
                 image={w2}
-                className={classes.Wimage}
-                sx={{ margin: "auto" }}
+                sx={{
+                  margin: "auto",
+                  height: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                  width: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                }}
               />
               <CardContent>
                 <Typography
@@ -106,7 +146,7 @@ const Whitepapers = () => {
                     fontWeight: "400",
                     fontSize: "26px",
                     letterSpacing: "2px",
-                    marginLeft: { lg: "23px", md: "23px", xs: "13px" },
+                    textAlign: "center",
                   }}
                   fontFamily='Raleway'
                 >
@@ -125,17 +165,33 @@ const Whitepapers = () => {
           </Grid>
           <Grid item md={4} xs={12}>
             <Card
-              className={classes.WhitepaperCard}
               sx={{
                 backgroundColor: "#04212b",
                 borderRadius: "20px",
-                paddingBottom: { lg: "0px", md: "0px", sm: "20px", xs: "70px" },
+                paddingTop: { lg: "30px", md: "30px", sm: "20px", xs: "70px" },
+                height: "100%",
               }}
             >
               <CardMedia
                 image={w3}
-                className={classes.Wimage}
-                sx={{ margin: "auto" }}
+                sx={{
+                  margin: "auto",
+                  justifyContent: "center",
+                  height: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                  width: {
+                    xl: "320px",
+                    lg: "320px",
+                    md: "320px",
+                    sm: "300px",
+                    xs: "200px",
+                  },
+                }}
               />
               <CardContent>
                 <Typography
@@ -144,11 +200,12 @@ const Whitepapers = () => {
                     fontWeight: "400",
                     fontSize: "26px",
                     letterSpacing: "2px",
-                    marginLeft: { lg: "23px", md: "23px", xs: "13px" },
+                    // marginLeft: { lg: "23px", md: "23px", xs: "13px" },
+                    textAlign: "center",
                   }}
                   fontFamily='Raleway'
                 >
-                  The Chronicles of Roob
+                  Roob Chronicles
                 </Typography>
                 <Btn
                   title='LEARN MORE'

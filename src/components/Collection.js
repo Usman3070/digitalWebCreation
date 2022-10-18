@@ -105,7 +105,7 @@ const Collection = () => {
                 borderRadius: "15px",
               }}
             >
-              <CardMedia image='/mammoth.png' className={classes.c3} />
+              <CardMedia image='/repHero.png' className={classes.c3} />
               <CardContent>
                 <Typography className={classes.typo} fontFamily='Raleway'>
                   MammothBoof
