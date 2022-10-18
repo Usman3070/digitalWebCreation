@@ -225,7 +225,7 @@ const Team = () => {
               display: "flex",
               justifyContent: "center",
               paddingTop: "50px",
-              paddingBottom: "200px",
+              // paddingBottom: "200px",
             }}
           >
             <Grid item>
