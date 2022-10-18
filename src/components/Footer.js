@@ -6,9 +6,9 @@ import discord from "../assets/Media/discord.svg";
 import twitter from "../assets/Media/twitter.svg";
 import facebook from "../assets/Media/facebook.svg";
 import instagram from "../assets/Media/instagram.png";
-import youtube from "../assets/Media/youtube.svg";
 import tiktok from "../assets/Media/tiktok.png";
 import footerImg from "../assets/Media/footerImg.png";
+import opensea from "../assets/Media/Opensea.svg";
 const Footer = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -182,6 +182,36 @@ const Footer = () => {
               >
                 <CardMedia
                   image={footerImg}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.2} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://digitalwebcreation.medium.com/")
+                }
+              >
+                <CardMedia
+                  image={opensea}
+                  sx={{
+                    height: "48px",
+                    width: "48px",
+                  }}
+                />
+              </div>
+            </Grid>
+            <Grid item md={1.2} xs={3}>
+              <div
+                onClick={() =>
+                  openInNewTab("https://digitalwebcreation.medium.com/")
+                }
+              >
+                <CardMedia
+                  image={opensea}
                   sx={{
                     height: "48px",
                     width: "48px",

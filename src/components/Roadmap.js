@@ -29,7 +29,7 @@ const Roadmap = () => {
     {
       title: "Q2 2022",
       desc: "- Launch of 5353 Sloth Roob Official Collection. - The beginning of the search mission is to find the SlothRoob friend’s on the Ethereum network. MammothBoof, SquirrelToot, TigerHooch & WeaselWooz.",
-      img: "/rgbSphere.png",
+      img: "/sphere.png",
     },
     {
       title: "Q4 2022",
@@ -78,8 +78,10 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "6.3%", md: "6%" },
+            bottom: { lg: "6.3%", md: "6.1%" },
+            // xl: "24.4%"
             left: { lg: "23.5%", md: "27%" },
+            // xl: "20.8%"
             display: { md: "block", sm: "none", xs: "none" },
           }}
         >
@@ -96,8 +98,10 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "15.8%", md: "15%" },
+            bottom: { lg: "15.8%", md: "15.3%" },
+            // xl: "32%"
             left: { lg: "23.5%", md: "27%" },
+            // xl: "20.8%"
             display: { md: "block", sm: "none", xs: "none" },
           }}
         >
@@ -114,8 +118,10 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "25.3%", md: "24.3%" },
+            bottom: { lg: "25.3%", md: "24.6%" },
+            // xl: "39.8%"
             left: { lg: "23.5%", md: "27%" },
+            // xl: "20.8%"
             display: { md: "block", sm: "none", xs: "none" },
           }}
         >
@@ -132,8 +138,10 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "34.8%", md: "33.6%" },
+            bottom: { lg: "34.8%", md: "34%" },
+            // xl: "47.4%"
             left: { lg: "23.5%", md: "27%" },
+            // xl: "20.8%"
             display: { md: "block", sm: "none", xs: "none" },
           }}
         >
@@ -162,13 +170,13 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            -----------------------
+            --------------------
           </Typography>
         </Typography>
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "54.3%", md: "55.4%" },
+            bottom: { lg: "55.3%", md: "56%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -180,13 +188,13 @@ const Roadmap = () => {
               writingMode: "vertical-lr",
             }}
           >
-            --------------------
+            -----------------
           </Typography>
         </Typography>
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "65.4%", md: "68%" },
+            bottom: { lg: "65.4%", md: "67.3%" },
             left: { lg: "23.5%", md: "27%" },
             display: { md: "block", sm: "none", xs: "none" },
           }}
@@ -204,7 +212,7 @@ const Roadmap = () => {
         <Typography
           sx={{
             position: "absolute",
-            bottom: { lg: "75%", md: "78%" },
+            bottom: { lg: "75%", md: "77.5%" },
             left: { lg: "23.5%", md: "26.8%" },
 
             display: { md: "block", sm: "none", xs: "none" },
@@ -260,7 +268,7 @@ const Roadmap = () => {
                 /> */}
                   <Typography
                     sx={
-                      index > 2
+                      index > 3
                         ? {
                             width: "15%",
                             display: { md: "flex", xs: "none" },
@@ -279,7 +287,7 @@ const Roadmap = () => {
 
                     <Typography
                       sx={
-                        index > 2
+                        index > 3
                           ? {
                               height: "3px",
                               backgroundColor: "#fff",
@@ -296,7 +304,7 @@ const Roadmap = () => {
 
                   <Box
                     sx={
-                      index > 2
+                      index > 3
                         ? {
                             padding: { md: "34px", xs: "12px" },
                             width: { md: "85%", xs: "100%" },
@@ -334,12 +342,12 @@ const Roadmap = () => {
                     >
                       <Typography
                         sx={
-                          index > 2
+                          index > 3
                             ? {
                                 writingMode: "vertical-rl",
                                 transform: "rotate(180deg)",
-                                paddingBlockEnd: "24px",
-                                marginBlockStart: "32px",
+                                paddingBlockEnd: "12px",
+                                marginBlockStart: "12px",
                                 color: "#4efd93",
                                 fontSize: "16px",
                                 fontWeight: "800",
@@ -349,7 +357,7 @@ const Roadmap = () => {
                                 transform: "rotate(180deg)",
                                 paddingBlockEnd: "12px",
                                 marginBlockStart: "12px",
-                                color: "#4efd93",
+                                color: "#573bfe",
                                 fontSize: "16px",
                                 fontWeight: "800",
                               }

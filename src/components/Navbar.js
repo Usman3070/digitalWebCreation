@@ -375,7 +375,7 @@ function Navbar(props) {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", marginBottom: "20px" }}>
       <AppBar
         component='nav'
         sx={{

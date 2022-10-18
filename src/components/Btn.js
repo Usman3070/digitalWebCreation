@@ -13,7 +13,7 @@ const Btn = (props) => {
           borderRadius: "16px",
           color: "#fff",
           fontWeight: "bold",
-          mt: "110px",
+          mt: "20px",
         }}
         onClick={props.onClick}
         style={props.style}

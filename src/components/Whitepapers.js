@@ -1,4 +1,5 @@
 import {
+  Button,
   Card,
   CardContent,
   CardMedia,
@@ -72,18 +73,18 @@ const Whitepapers = () => {
                 sx={{
                   margin: "auto",
                   height: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                   width: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                 }}
               />
@@ -94,20 +95,48 @@ const Whitepapers = () => {
                     fontWeight: "400",
                     fontSize: "26px",
                     letterSpacing: "2px",
-                    textAlign: "center",
+                    textAlign: {
+                      xs: "center",
+                      sm: "center",
+                      md: "left",
+                      lg: "left",
+                      xl: "left",
+                    },
+                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway'
                 >
                   Whitepaper
                 </Typography>
-                <Btn
+                {/* <Btn
                   title='LEARN MORE'
                   onClick={() =>
                     openInNewTab(
                       "https://digital-web-creation-club.gitbook.io/digital-web-creation-club-whitepaper/dwcc-whitepaper/overview"
                     )
                   }
-                />
+                /> */}
+                <Container>
+                  <Button
+                    sx={{
+                      backgroundColor: "#4efd93",
+                      padding: "18px",
+                      width: "100%",
+                      borderRadius: "16px",
+                      color: "#fff",
+                      fontWeight: "bold",
+                      mt: "20px",
+                    }}
+                    onClick={() =>
+                      openInNewTab(
+                        "https://digital-web-creation-club.gitbook.io/digital-web-creation-club-whitepaper/dwcc-whitepaper/overview"
+                      )
+                    }
+                    variant='contained'
+                  >
+                    LEARN MORE
+                  </Button>
+                </Container>
               </CardContent>
             </Card>
           </Grid>
@@ -124,18 +153,18 @@ const Whitepapers = () => {
                 sx={{
                   margin: "auto",
                   height: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                   width: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                 }}
               />
@@ -146,20 +175,48 @@ const Whitepapers = () => {
                     fontWeight: "400",
                     fontSize: "26px",
                     letterSpacing: "2px",
-                    textAlign: "center",
+                    textAlign: {
+                      xs: "center",
+                      sm: "center",
+                      md: "left",
+                      lg: "left",
+                      xl: "left",
+                    },
+                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway'
                 >
                   Licensing Rights
                 </Typography>
-                <Btn
+                {/* <Btn
                   title='LEARN MORE'
                   onClick={() =>
                     openInNewTab(
                       "https://digital-web-creation-club.gitbook.io/digital-web-creation-club-licensing-agreement/digital-web-creation-club-licensing-agreement"
                     )
                   }
-                />
+                /> */}
+                <Container>
+                  <Button
+                    sx={{
+                      backgroundColor: "#4efd93",
+                      padding: "18px",
+                      width: "100%",
+                      borderRadius: "16px",
+                      color: "#fff",
+                      fontWeight: "bold",
+                      mt: "20px",
+                    }}
+                    onClick={() =>
+                      openInNewTab(
+                        "https://digital-web-creation-club.gitbook.io/digital-web-creation-club-licensing-agreement/digital-web-creation-club-licensing-agreement"
+                      )
+                    }
+                    variant='contained'
+                  >
+                    LEARN MORE
+                  </Button>
+                </Container>
               </CardContent>
             </Card>
           </Grid>
@@ -169,27 +226,25 @@ const Whitepapers = () => {
                 backgroundColor: "#04212b",
                 borderRadius: "20px",
                 paddingTop: { lg: "30px", md: "30px", sm: "20px", xs: "70px" },
-                height: "100%",
               }}
             >
               <CardMedia
                 image={w3}
                 sx={{
                   margin: "auto",
-                  justifyContent: "center",
                   height: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                   width: {
-                    xl: "320px",
+                    xl: "350px",
                     lg: "320px",
                     md: "320px",
                     sm: "300px",
-                    xs: "200px",
+                    xs: "250px",
                   },
                 }}
               />
@@ -201,20 +256,48 @@ const Whitepapers = () => {
                     fontSize: "26px",
                     letterSpacing: "2px",
                     // marginLeft: { lg: "23px", md: "23px", xs: "13px" },
-                    textAlign: "center",
+                    textAlign: {
+                      xs: "center",
+                      sm: "center",
+                      md: "left",
+                      lg: "left",
+                      xl: "left",
+                    },
+                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway'
                 >
                   Roob Chronicles
                 </Typography>
-                <Btn
+                {/* <Btn
                   title='LEARN MORE'
                   onClick={() =>
                     openInNewTab(
                       "https://online.flippingbook.com/view/1040088348/"
                     )
                   }
-                />
+                /> */}
+                <Container>
+                  <Button
+                    sx={{
+                      backgroundColor: "#4efd93",
+                      padding: "18px",
+                      width: "100%",
+                      borderRadius: "16px",
+                      color: "#fff",
+                      fontWeight: "bold",
+                      mt: "20px",
+                    }}
+                    onClick={() =>
+                      openInNewTab(
+                        "https://online.flippingbook.com/view/1040088348/"
+                      )
+                    }
+                    variant='contained'
+                  >
+                    LEARN MORE
+                  </Button>
+                </Container>
               </CardContent>
             </Card>
           </Grid>

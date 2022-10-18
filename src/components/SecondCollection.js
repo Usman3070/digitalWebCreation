@@ -86,7 +86,7 @@ const SecondCollection = () => {
             }}
           >
             <CardMedia
-              image='/mammoth.png'
+              image='/repHero.png'
               sx={{
                 height: "270px",
                 width: "250px",
@@ -127,7 +127,7 @@ const SecondCollection = () => {
             }}
           >
             <CardMedia
-              image={c1}
+              image={c4}
               sx={{
                 height: "270px",
                 width: "250px",
@@ -168,7 +168,7 @@ const SecondCollection = () => {
             }}
           >
             <CardMedia
-              image={c1}
+              image={c5}
               sx={{
                 height: "270px",
                 width: "250px",
@@ -209,7 +209,7 @@ const SecondCollection = () => {
             }}
           >
             <CardMedia
-              image={c1}
+              image={c6}
               sx={{
                 height: "270px",
                 width: "250px",

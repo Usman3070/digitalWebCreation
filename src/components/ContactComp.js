@@ -113,6 +113,7 @@ const ContactComp = () => {
               mt: "110px",
               color: "white",
             }}
+            variant='contained'
           >
             SEND MESSAGE
           </Button>

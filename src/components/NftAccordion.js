@@ -39,7 +39,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -50,7 +50,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -69,7 +69,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -80,7 +80,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -100,7 +100,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -111,7 +111,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -131,7 +131,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -142,7 +142,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -163,7 +163,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -174,7 +174,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -183,7 +183,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -207,7 +207,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -219,7 +219,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -239,7 +239,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -250,7 +250,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -269,7 +269,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
@@ -280,7 +280,7 @@ export default function SimpleAccordion() {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: { lg: "22px", md: "22px", sm: "18px", xs: "14px" },
+              fontSize: { lg: "26px", md: "26px", sm: "20px", xs: "16px" },
             }}
             fontFamily='Raleway'
           >
