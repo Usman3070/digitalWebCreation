@@ -125,12 +125,12 @@ function App() {
         <Team />
       </Box>
       {/* Responsive problem in this component */}
-      <Box className={classes.collectionContainer} sx={{ width: "100%" }}>
+      {/* <Box className={classes.collectionContainer} sx={{ width: "100%" }}>
         <Contact />
       </Box>
       <Box className={classes.footer}>
         <Footer />
-      </Box>
+      </Box> */}
     </>
   );
 }

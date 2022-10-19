@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import background from "./assets/Media/background.png";
 import bg1 from "./assets/Media/bg1.png";
 import footer from "./assets/Media/footer.png";
+import skatingBG from "./assets/Media/skatingBG.png";
 const useStyles = makeStyles((theme) => ({
   // root: {
   //   boxShadow: "none",
@@ -21,6 +22,15 @@ const useStyles = makeStyles((theme) => ({
   mainContainer: {
     backgroundImage: `url(${background})`,
     height: "870px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100%",
+  },
+  skating: {
+    backgroundImage: `url(${skatingBG})`,
+
+    height: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

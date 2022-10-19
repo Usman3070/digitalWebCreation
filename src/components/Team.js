@@ -26,7 +26,7 @@ const Team = () => {
     },
     {
       img: "/t5.png",
-      title: "Wahab",
+      title: "Alpha",
       subtitle: "Technology Development",
     },
     {
@@ -206,6 +206,7 @@ const Team = () => {
                       textAlign: "center",
 
                       marginTop: "30px",
+                      zIndex: "1",
                     }}
                     fontFamily='Raleway'
                   >

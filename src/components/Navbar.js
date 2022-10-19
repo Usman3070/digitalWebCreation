@@ -160,207 +160,205 @@ function Navbar(props) {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemText>
-              <BrowserRouter>
-                <CloseIcon
-                  color='#fff'
-                  sx={{ display: "flex", float: "right" }}
-                  onClick={handleDrawerToggle}
-                />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                  }}
-                >
-                  <Link
-                    to='#home'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    HOME
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+              <CloseIcon
+                color='#fff'
+                sx={{ display: "flex", float: "right" }}
+                onClick={handleDrawerToggle}
+              />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                }}
+              >
+                <Link
+                  to='/#home'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
                   onClick={handleDrawerToggle}
                 >
-                  {/* <Link
-                  to='#home'
+                  HOME
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+                onClick={handleDrawerToggle}
+              >
+                {/* <Link
+                  to='/#home'
                   style={{ textDecoration: "none", color: "#04212b" }}
                   className={`${classes.menu} ${
                     trigger === false ? "" : classes.appBarScrolledMenu
                   }`}
                 > */}
-                  MINT
-                  {/* </Link> */}
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
-                  // className={`${classes.menu} ${
-                  //   trigger === false ? "" : classes.appBarScrolledMenu
-                  // }`}
-                  onClick={handleDrawerToggle}
+                MINT
+                {/* </Link> */}
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+                onClick={handleDrawerToggle}
+              >
+                <Link
+                  to='/staking'
+                  style={{ textDecoration: "none", color: "#fff" }}
+                  className={`${classes.menu} ${
+                    trigger === false ? "" : classes.appBarScrolledMenu
+                  }`}
                 >
-                  {/* <Link
-                  to='#home'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
-                > */}
                   STAKING
-                  {/* </Link> */}
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#roadmap'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#roadmap'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    ROADMAP
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                  ROADMAP
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#collections'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#collections'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    COLLECTIONS
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                  COLLECTIONS
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#whitepapers'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#whitepapers'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    {" "}
-                    WHITEPAPERS
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                  {" "}
+                  WHITEPAPERS
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#faq'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#faq'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    FAQ
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                  FAQ
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#team'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#team'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    TEAM
-                  </Link>
-                </Button>
-                <br />
-                <Button
-                  sx={{
-                    fontWeight: "800",
-                    fontSize: "16px",
-                    color: "#fff",
-                  }}
+                  TEAM
+                </Link>
+              </Button>
+              <br />
+              <Button
+                sx={{
+                  fontWeight: "800",
+                  fontSize: "16px",
+                  color: "#fff",
+                }}
+                // className={`${classes.menu} ${
+                //   trigger === false ? "" : classes.appBarScrolledMenu
+                // }`}
+              >
+                <Link
+                  to='/#contact'
+                  style={{ textDecoration: "none", color: "#fff" }}
                   // className={`${classes.menu} ${
                   //   trigger === false ? "" : classes.appBarScrolledMenu
                   // }`}
+                  onClick={handleDrawerToggle}
                 >
-                  <Link
-                    to='#contact'
-                    style={{ textDecoration: "none", color: "#fff" }}
-                    // className={`${classes.menu} ${
-                    //   trigger === false ? "" : classes.appBarScrolledMenu
-                    // }`}
-                    onClick={handleDrawerToggle}
-                  >
-                    CONTACT
-                  </Link>
-                </Button>
-              </BrowserRouter>
+                  CONTACT
+                </Link>
+              </Button>
             </ListItemText>
           </ListItemButton>
         </ListItem>
@@ -431,193 +429,191 @@ function Navbar(props) {
               display: { xs: "none", sm: "none", md: "block", lg: "block" },
             }}
           >
-            <BrowserRouter>
-              <Button>
-                <Link
-                  to='#home'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
-                >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    HOME
-                  </Typography>
-                </Link>
-              </Button>
-              <Button
-                className={`${classes.menu} ${
-                  trigger === false ? "" : classes.appBarScrolledMenu
-                }`}
-                sx={{
-                  color: "#fff",
-                }}
-              >
-                <Link
-                  to='#home'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
-                >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    MINT
-                  </Typography>
-                </Link>
-              </Button>
-              <Button
+            <Button>
+              <Link
+                to='/#home'
+                style={{ textDecoration: "none", color: "#04212b" }}
                 className={`${classes.menu} ${
                   trigger === false ? "" : classes.appBarScrolledMenu
                 }`}
               >
-                <Link
-                  to='#home'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                      // color: "#04212b",
-                    }}
-                  >
-                    STAKING
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#roadmap'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  HOME
+                </Typography>
+              </Link>
+            </Button>
+            <Button
+              className={`${classes.menu} ${
+                trigger === false ? "" : classes.appBarScrolledMenu
+              }`}
+              sx={{
+                color: "#fff",
+              }}
+            >
+              <Link
+                to='/#home'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    {" "}
-                    ROADMAP
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#collections'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  MINT
+                </Typography>
+              </Link>
+            </Button>
+            <Button
+              className={`${classes.menu} ${
+                trigger === false ? "" : classes.appBarScrolledMenu
+              }`}
+            >
+              <Link
+                to='/staking'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    // color: "#04212b",
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    COLLECTIONS
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#whitepapers'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  STAKING
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#roadmap'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    {" "}
-                    WHITEPAPERS
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#faq'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  {" "}
+                  ROADMAP
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#collections'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    FAQ
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#team'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  COLLECTIONS
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#whitepapers'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    TEAM
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link
-                  to='#contact'
-                  style={{ textDecoration: "none", color: "#04212b" }}
-                  className={`${classes.menu} ${
-                    trigger === false ? "" : classes.appBarScrolledMenu
-                  }`}
+                  {" "}
+                  WHITEPAPERS
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#faq'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
                 >
-                  <Typography
-                    sx={{
-                      fontWeight: "800",
-                      fontSize: { xl: "16px", lg: "14px", md: "12px" },
-                      paddingRight: { xl: "40px", lg: "20px", md: "1px" },
-                    }}
-                  >
-                    CONTACT
-                  </Typography>
-                </Link>
-              </Button>
-            </BrowserRouter>
+                  FAQ
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#team'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
+                >
+                  TEAM
+                </Typography>
+              </Link>
+            </Button>
+            <Button>
+              <Link
+                to='/#contact'
+                style={{ textDecoration: "none", color: "#04212b" }}
+                className={`${classes.menu} ${
+                  trigger === false ? "" : classes.appBarScrolledMenu
+                }`}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "800",
+                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                  }}
+                >
+                  CONTACT
+                </Typography>
+              </Link>
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>
