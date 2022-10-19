@@ -66,7 +66,23 @@ const Skating = () => {
               >
                 <Grid container lg={12} md={12} sm={12} xs={12} spacing={4}>
                   <Grid item lg={8} md={8} sm={8} xs={8}>
-                    <Typography sx={{ color: "#fff", textAlign: "justify" }}>
+                    <Typography
+                      sx={{
+                        color: "#fff",
+                        textAlign: {
+                          lg: "justify",
+                          md: "justify",
+                          sm: "left",
+                          xs: "left",
+                        },
+                        fontSize: {
+                          lg: "18px",
+                          md: "16px",
+                          sm: "14px",
+                          xs: "12px",
+                        },
+                      }}
+                    >
                       $Roob token is purely a utility token, that will be used
                       within the Roob Chronicles ecosystem and its other
                       utilities. These reward tokens can only be generated via
@@ -137,7 +153,7 @@ const Skating = () => {
                       sx={{
                         color: "#fff",
                         textAlign: "center",
-                        marginTop: "4px",
+                        marginTop: { lg: "8px", xs: "1px" },
                         fontSize: {
                           lg: "16px",
                           md: "14px",
@@ -149,13 +165,13 @@ const Skating = () => {
                       Check Balance / Claim
                     </Typography>
                   </Grid>
-                  <Grid item lg={4} md={4} sm={4} xs={4}>
+                  <Grid item lg={4} md={4} sm={4} xs={3}>
                     <input
                       type='text'
                       value={value}
                       onChange={handleChange}
                       style={{
-                        maxWidth: "100px",
+                        width: "100%",
                         background: "transparent",
                         border: "2px solid rgb(255 255 255)",
                         textAlign: "center",
@@ -219,7 +235,23 @@ const Skating = () => {
                     />
                   </Grid>
                   <Grid item lg={6} md={6} sm={6} xs={6}>
-                    <Typography sx={{ color: "#fff", textAlign: "justify" }}>
+                    <Typography
+                      sx={{
+                        color: "#fff",
+                        textAlign: {
+                          lg: "justify",
+                          md: "justify",
+                          sm: "left",
+                          xs: "left",
+                        },
+                        fontSize: {
+                          lg: "18px",
+                          md: "16px",
+                          sm: "14px",
+                          xs: "12px",
+                        },
+                      }}
+                    >
                       Anyone can check what balance each of our Roob NFTs has
                       accumulated. But only the owner of the Roob NFT can claim
                       it.
