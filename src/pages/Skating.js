@@ -78,8 +78,8 @@ const Skating = () => {
                           xs: "left",
                         },
                         fontSize: {
-                          xl: "22px",
-                          lg: "18px",
+                          xl: "18px",
+                          lg: "14px",
                           md: "14px",
                           sm: "12px",
                           xs: "10px",
@@ -103,21 +103,21 @@ const Skating = () => {
                       image={roundGif}
                       sx={{
                         height: {
-                          lg: "220px",
+                          lg: "210px",
                           md: "220px",
                           sm: "200px",
                           xs: "128px",
                         },
                         width: {
-                          lg: "220px",
+                          lg: "210px",
                           md: "220px",
                           sm: "200px",
                           xs: "128px",
                         },
                         marginLeft: { xl: "25%", md: "25%", sm: "25%" },
                         marginTop: {
-                          xl: "1%",
-                          lg: "1%",
+                          xl: "8%",
+                          lg: "10%",
                           md: "0%",
                           sm: "0%",
                           xs: "100%",
