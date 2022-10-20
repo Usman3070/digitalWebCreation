@@ -30,11 +30,11 @@ const useStyles = makeStyles((theme) => ({
   skating: {
     backgroundImage: `url(${skatingBG})`,
 
-    height: "100%",
-    backgroundPosition: "center",
+    // backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    width: "100%",
+    // width: "100%",
+    height: "100%",
   },
   heroTitle: {
     color: "#04212b",

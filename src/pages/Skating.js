@@ -29,7 +29,7 @@ const Skating = () => {
           <Navbar />
           <Box>
             <Container
-              sx={{ width: { lg: "60%", md: "80%", sm: "100%", xs: "90%" } }}
+              sx={{ width: { lg: "56%", md: "80%", sm: "100%", xs: "90%" } }}
             >
               <Box
                 sx={{
@@ -51,6 +51,7 @@ const Skating = () => {
                       sm: "34px",
                       xs: "16px",
                     },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   ROOB CHRONICLES STAKING $ROOB
@@ -77,11 +78,13 @@ const Skating = () => {
                           xs: "left",
                         },
                         fontSize: {
-                          lg: "14px",
+                          xl: "22px",
+                          lg: "18px",
                           md: "14px",
                           sm: "12px",
-                          xs: "12px",
+                          xs: "10px",
                         },
+                        fontFamily: "Raleway",
                       }}
                     >
                       $Roob token is purely a utility token, that will be used
@@ -93,12 +96,6 @@ const Skating = () => {
                       raffle & auction platform, Metaverse future P2E Roobs game
                       & Purchase Whitelist from other projects, NFTs of other
                       projects & Merch.
-                      <br />
-                      Holders will have the option to stake their NFTs for a
-                      period of 7 Days, 15 Days Or 30 Days & they will begin to
-                      accumulate the 15 $ROOB Per Day OR .625 $ROOB Per Hour. 15
-                      Days will yield 5% bonus tokens. 30 days will yield 15%
-                      bonus tokens.
                     </Typography>
                   </Grid>
                   <Grid item lg={4} md={4} sm={4} xs={4}>
@@ -119,11 +116,11 @@ const Skating = () => {
                         },
                         marginLeft: { xl: "25%", md: "25%", sm: "25%" },
                         marginTop: {
-                          xl: "10%",
-                          lg: "15%",
-                          md: "5%",
-                          sm: "30%",
-                          xs: "250%",
+                          xl: "1%",
+                          lg: "1%",
+                          md: "0%",
+                          sm: "0%",
+                          xs: "100%",
                         },
                       }}
                     />
@@ -150,6 +147,7 @@ const Skating = () => {
                       //you want this to be the same as the backgroundColor above
                       backgroundColor: "rgb(4,33,43,1)",
                     },
+                    fontFamily: "Raleway",
                   }}
                 >
                   Connect Wallet
@@ -169,6 +167,8 @@ const Skating = () => {
                           sm: "12px",
                           xs: "10px",
                         },
+
+                        fontFamily: "Raleway",
                       }}
                     >
                       Check Balance / Claim
@@ -208,6 +208,8 @@ const Skating = () => {
                           //you want this to be the same as the backgroundColor above
                           backgroundColor: "rgb(4,33,43,1)",
                         },
+
+                        fontFamily: "Raleway",
                       }}
                     >
                       Check Balance
@@ -240,6 +242,13 @@ const Skating = () => {
                           sm: "150px",
                           xs: "100px",
                         },
+                        marginTop: {
+                          xl: "0px",
+                          lg: "0px",
+                          md: "0px",
+                          sm: "0px",
+                          xs: "90px",
+                        },
                       }}
                     />
                   </Grid>
@@ -253,23 +262,29 @@ const Skating = () => {
                           sm: "left",
                           xs: "left",
                         },
-                        marginTop: {
-                          xl: "20%",
-                          lg: "25%",
-                          md: "14%",
-                          sm: "12%",
-                        },
+                        // marginTop: {
+                        //   xl: "20%",
+                        //   lg: "25%",
+                        //   md: "14%",
+                        //   sm: "12%",
+                        // },
                         fontSize: {
+                          xl: "18px",
                           lg: "14px",
                           md: "14px",
                           sm: "12px",
-                          xs: "12px",
+                          xs: "10px",
                         },
+                        fontFamily: "Raleway",
                       }}
                     >
-                      Anyone can check what balance each of our Roob NFTs has
-                      accumulated. But only the owner of the Roob NFT can claim
-                      it.
+                      Holders will have the option to stake their NFTs for a
+                      period of 7 Days, 15 Days Or 30 Days & they will begin to
+                      accumulate the 15 $ROOB Per Day OR .625 $ROOB Per Hour. 15
+                      Days will yield 5% bonus tokens. 30 days will yield 15%
+                      bonus tokens. Anyone can check what balance each of our
+                      Roob NFTs has accumulated. But only the owner of the Roob
+                      NFT can claim it.
                     </Typography>
                   </Grid>
                 </Grid>
