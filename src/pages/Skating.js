@@ -31,31 +31,33 @@ const Skating = () => {
             <Container
               sx={{ width: { lg: "56%", md: "80%", sm: "100%", xs: "90%" } }}
             >
-              <Box
-                sx={{
-                  border: "2px solid #000",
-                  width: "100%",
-                  padding: "10px",
-                }}
-              >
-                <Typography
-                  variant='h3'
+              <Box sx={{ display: "flex", justifyContent: "center" }}>
+                <Box
                   sx={{
-                    textAlign: "center",
-                    color: "rgb(4,33,43,1)",
-                    textShadow: "1px 1px 10px #8bef8b",
-                    zIndex: "1",
-                    fontSize: {
-                      lg: "42px",
-                      md: "38px",
-                      sm: "34px",
-                      xs: "16px",
-                    },
-                    fontFamily: "Raleway-bolder",
+                    border: "2px solid #000",
+                    width: "100%",
+                    padding: "10px",
                   }}
                 >
-                  ROOB CHRONICLES STAKING $ROOB
-                </Typography>
+                  <Typography
+                    variant='h3'
+                    sx={{
+                      textAlign: "center",
+                      color: "rgb(4,33,43,1)",
+                      textShadow: "1px 1px 10px #8bef8b",
+                      zIndex: "1",
+                      fontSize: {
+                        lg: "42px",
+                        md: "38px",
+                        sm: "34px",
+                        xs: "16px",
+                      },
+                      fontFamily: "Raleway-bolder",
+                    }}
+                  >
+                    ROOB CHRONICLES STAKING $ROOB
+                  </Typography>
+                </Box>
               </Box>
 
               <Box
