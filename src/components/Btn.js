@@ -14,6 +14,10 @@ const Btn = (props) => {
           color: "#fff",
           fontWeight: "bold",
           mt: "20px",
+          "&:hover": {
+            //you want this to be the same as the backgroundColor above
+            backgroundColor: "#4efd93",
+          },
         }}
         onClick={props.onClick}
         style={props.style}

@@ -37,7 +37,7 @@ const SecondCollection = () => {
                   fontWeight: "600",
                   fontSize: "19px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
                 Genesis Boss Sloth Roob
               </Typography>
@@ -69,7 +69,7 @@ const SecondCollection = () => {
                   fontWeight: "600",
                   fontSize: "19px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
                 Sloth Roob Official Collection
               </Typography>
@@ -101,7 +101,7 @@ const SecondCollection = () => {
                   fontSize: "19px",
                   textAlign: "center",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
                 MammothBoof
               </Typography>
@@ -142,9 +142,9 @@ const SecondCollection = () => {
                   fontWeight: "600",
                   fontSize: "19px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
-                Genesis Boss Sloth Roob
+                SquirrelToot
               </Typography>
               <Typography
                 sx={{
@@ -183,9 +183,9 @@ const SecondCollection = () => {
                   fontWeight: "600",
                   fontSize: "19px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
-                Genesis Boss Sloth Roob
+                TigerHooch
               </Typography>
               <Typography
                 sx={{
@@ -224,9 +224,9 @@ const SecondCollection = () => {
                   fontWeight: "600",
                   fontSize: "19px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
-                Genesis Boss Sloth Roob
+                WeaselWooz
               </Typography>
               <Typography
                 sx={{

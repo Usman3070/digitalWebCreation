@@ -112,6 +112,10 @@ const ContactComp = () => {
               fontWeight: "bold",
               mt: "110px",
               color: "white",
+              "&:hover": {
+                //you want this to be the same as the backgroundColor above
+                backgroundColor: "#4efd93",
+              },
             }}
             variant='contained'
           >

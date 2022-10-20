@@ -104,7 +104,7 @@ const Whitepapers = () => {
                     },
                     marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
-                  fontFamily='Raleway'
+                  fontFamily='Raleway-bolder'
                 >
                   Whitepaper
                 </Typography>
@@ -126,6 +126,10 @@ const Whitepapers = () => {
                       color: "#fff",
                       fontWeight: "bold",
                       mt: "20px",
+                      "&:hover": {
+                        //you want this to be the same as the backgroundColor above
+                        backgroundColor: "#4efd93",
+                      },
                     }}
                     onClick={() =>
                       openInNewTab(
@@ -184,7 +188,7 @@ const Whitepapers = () => {
                     },
                     marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
-                  fontFamily='Raleway'
+                  fontFamily='Raleway-bolder'
                 >
                   Licensing Rights
                 </Typography>
@@ -206,6 +210,10 @@ const Whitepapers = () => {
                       color: "#fff",
                       fontWeight: "bold",
                       mt: "20px",
+                      "&:hover": {
+                        //you want this to be the same as the backgroundColor above
+                        backgroundColor: "#4efd93",
+                      },
                     }}
                     onClick={() =>
                       openInNewTab(
@@ -265,7 +273,7 @@ const Whitepapers = () => {
                     },
                     marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
                   }}
-                  fontFamily='Raleway'
+                  fontFamily='Raleway-bolder'
                 >
                   Roob Chronicles
                 </Typography>
@@ -287,6 +295,10 @@ const Whitepapers = () => {
                       color: "#fff",
                       fontWeight: "bold",
                       mt: "20px",
+                      "&:hover": {
+                        //you want this to be the same as the backgroundColor above
+                        backgroundColor: "#4efd93",
+                      },
                     }}
                     onClick={() =>
                       openInNewTab(

@@ -174,6 +174,7 @@ const Team = () => {
                         height: { md: "250px", xs: "200px" },
                         width: { md: "250px", xs: "200px" },
                         borderRadius: "125px",
+                        border: "3px solid #573bfe",
                       }}
                     >
                       <CardMedia
@@ -194,7 +195,7 @@ const Team = () => {
 
                       marginTop: "30px",
                     }}
-                    fontFamily='Raleway'
+                    fontFamily='Raleway-bolder'
                   >
                     {person.title}
                   </Typography>
@@ -254,7 +255,7 @@ const Team = () => {
                   textAlign: "center",
                   marginTop: "30px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
                 Mox
               </Typography>
@@ -297,7 +298,7 @@ const Team = () => {
                   textAlign: "center",
                   marginTop: "30px",
                 }}
-                fontFamily='Raleway'
+                fontFamily='Raleway-bolder'
               >
                 Falcon
               </Typography>

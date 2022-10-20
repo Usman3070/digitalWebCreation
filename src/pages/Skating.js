@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import roundGif from "../assets/Media/gif1.gif";
-import difGif from "../assets/Media/gif2.gif";
+import avatar from "../assets/Media/avatar.gif";
 import Navbar from "../components/Navbar";
 import useStyles from "../styles";
 import roob from "../assets/Media/roob.gif";
@@ -29,12 +29,13 @@ const Skating = () => {
           <Navbar />
           <Box>
             <Container
-              sx={{ width: { lg: "50%", md: "60%", sm: "100%", xs: "100%" } }}
+              sx={{ width: { lg: "60%", md: "80%", sm: "100%", xs: "90%" } }}
             >
               <Box
                 sx={{
                   border: "2px solid #000",
                   width: "100%",
+                  padding: "10px",
                 }}
               >
                 <Typography
@@ -48,7 +49,7 @@ const Skating = () => {
                       lg: "42px",
                       md: "38px",
                       sm: "34px",
-                      xs: "30px",
+                      xs: "16px",
                     },
                   }}
                 >
@@ -76,9 +77,9 @@ const Skating = () => {
                           xs: "left",
                         },
                         fontSize: {
-                          lg: "18px",
-                          md: "16px",
-                          sm: "14px",
+                          lg: "14px",
+                          md: "14px",
+                          sm: "12px",
                           xs: "12px",
                         },
                       }}
@@ -105,16 +106,24 @@ const Skating = () => {
                       image={roundGif}
                       sx={{
                         height: {
-                          lg: "160px",
-                          md: "120px",
-                          sm: "100px",
-                          xs: "80px",
+                          lg: "220px",
+                          md: "220px",
+                          sm: "200px",
+                          xs: "128px",
                         },
                         width: {
-                          lg: "160px",
-                          md: "120px",
-                          sm: "100px",
-                          xs: "80px",
+                          lg: "220px",
+                          md: "220px",
+                          sm: "200px",
+                          xs: "128px",
+                        },
+                        marginLeft: { xl: "25%", md: "25%", sm: "25%" },
+                        marginTop: {
+                          xl: "10%",
+                          lg: "15%",
+                          md: "5%",
+                          sm: "30%",
+                          xs: "250%",
                         },
                       }}
                     />
@@ -171,7 +180,7 @@ const Skating = () => {
                       value={value}
                       onChange={handleChange}
                       style={{
-                        width: "100%",
+                        width: "80%",
                         background: "transparent",
                         border: "2px solid rgb(255 255 255)",
                         textAlign: "center",
@@ -217,7 +226,7 @@ const Skating = () => {
                 <Grid container lg={12} md={12} sm={12} xs={12} spacing={4}>
                   <Grid item lg={6} md={6} sm={6} xs={6}>
                     <CardMedia
-                      image={roob}
+                      image={avatar}
                       sx={{
                         height: {
                           lg: "260px",
@@ -244,10 +253,16 @@ const Skating = () => {
                           sm: "left",
                           xs: "left",
                         },
+                        marginTop: {
+                          xl: "20%",
+                          lg: "25%",
+                          md: "14%",
+                          sm: "12%",
+                        },
                         fontSize: {
-                          lg: "18px",
-                          md: "16px",
-                          sm: "14px",
+                          lg: "14px",
+                          md: "14px",
+                          sm: "12px",
                           xs: "12px",
                         },
                       }}

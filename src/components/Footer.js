@@ -40,7 +40,7 @@ const Footer = () => {
             marginBottom: "40px",
             fontSize: { lg: "42px", md: "42px", sm: "34px", xs: "28px" },
           }}
-          fontFamily='Raleway'
+          fontFamily='Raleway-bolder'
         >
           STAY CONNECTED!
         </Typography>
@@ -74,6 +74,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -88,6 +89,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -103,6 +105,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -119,6 +122,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -135,6 +139,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -153,6 +158,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -169,6 +175,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
                 />
@@ -185,6 +192,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                   }}
                 />
               </div>
@@ -200,6 +208,7 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+                    cursor: "pointer",
                   }}
                 />
               </div>
@@ -215,6 +224,8 @@ const Footer = () => {
                   sx={{
                     height: "48px",
                     width: "48px",
+
+                    cursor: "pointer",
                   }}
                 />
               </div>

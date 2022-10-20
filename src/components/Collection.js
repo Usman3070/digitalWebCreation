@@ -62,10 +62,12 @@ const Collection = () => {
             >
               <img src={c1} style={{}} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
-                  Genesis Boss Sloth
-                  <br />
-                  Roob
+                <Typography
+                  className={classes.typo}
+                  // sx={{ textAlign: "center" }}
+                  fontFamily='Raleway-bolder'
+                >
+                  Genesis Boss Sloth Roob
                 </Typography>
               </CardContent>
             </Card>
@@ -84,7 +86,10 @@ const Collection = () => {
             >
               <CardMedia image={c2} className={classes.c2} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
+                <Typography
+                  className={classes.typo}
+                  fontFamily='Raleway-bolder'
+                >
                   Sloth Roob Official
                   <br />
                   Collection
@@ -107,7 +112,10 @@ const Collection = () => {
             >
               <CardMedia image='/repHero.png' className={classes.c3} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
+                <Typography
+                  className={classes.typo}
+                  fontFamily='Raleway-bolder'
+                >
                   MammothBoof
                 </Typography>
                 <Typography
@@ -148,7 +156,10 @@ const Collection = () => {
             >
               <CardMedia image={c4} className={classes.c4} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
+                <Typography
+                  className={classes.typo}
+                  fontFamily='Raleway-bolder'
+                >
                   SquirrelToot
                 </Typography>
                 <Typography
@@ -188,7 +199,10 @@ const Collection = () => {
             >
               <CardMedia image={c5} className={classes.c5} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
+                <Typography
+                  className={classes.typo}
+                  fontFamily='Raleway-bolder'
+                >
                   TigerHooch
                 </Typography>
                 <Typography
@@ -228,7 +242,10 @@ const Collection = () => {
             >
               <CardMedia image={c6} className={classes.c6} />
               <CardContent>
-                <Typography className={classes.typo} fontFamily='Raleway'>
+                <Typography
+                  className={classes.typo}
+                  fontFamily='Raleway-bolder'
+                >
                   WeaselWooz
                 </Typography>
                 <Typography

@@ -75,11 +75,15 @@ const HeroSection = () => {
               backgroundColor: "#573bfe",
               display: "flex",
               alignItems: "center",
-              justifyContent: "space-around",
+              // justifyContent: "space-around",
+              "&:hover": {
+                //you want this to be the same as the backgroundColor above
+                backgroundColor: "#573bfe",
+              },
             }}
             onClick={() => openInNewTab("https://discord.com/invite/dwcc")}
           >
-            <img src={discord} />
+            <img src={discord} style={{ marginRight: "10px" }} />
             JOIN OUR DISCORD
           </Button>
         </Grid>

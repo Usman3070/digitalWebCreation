@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import Roadmap from "./components/Roadmap";
 import Video from "./components/Video";
 import SecondCollection from "./components/SecondCollection";
-
+import "./App.css";
 function App() {
   const classes = useStyles();
   return (

@@ -83,8 +83,6 @@ const useStyles = makeStyles((theme) => ({
   typo: {
     marginTop: "10px",
     marginBottom: "10px",
-    fontSize: "15px",
-    fontWeight: "800",
     color: "#fff",
   },
   c1: {

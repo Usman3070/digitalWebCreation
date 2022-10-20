@@ -27,7 +27,7 @@ const Contact = () => {
           marginBottom: "20px",
           fontSize: { lg: "42px", md: "42px", sm: "34px", xs: "28px" },
         }}
-        fontFamily='Raleway'
+        fontFamily='Raleway-bolder'
       >
         GET IN TOUCH
       </Typography>

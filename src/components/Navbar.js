@@ -133,7 +133,7 @@ function Navbar(props) {
   const { classes } = props;
   const trigger = useScrollTrigger({
     disableHysteresis: true,
-    threshold: 100,
+    threshold: 60,
   });
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -380,7 +380,7 @@ function Navbar(props) {
           boxShadow: "none",
           backgroundColor: "transparent",
         }}
-        position='fixed'
+        // position='fixed'
         elevation={0}
         className={`${classes.appBar} ${
           trigger === false ? "" : classes.appBarScrolled
@@ -440,8 +440,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   HOME
@@ -466,8 +471,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   MINT
@@ -489,9 +499,14 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
                     // color: "#04212b",
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   STAKING
@@ -509,8 +524,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   {" "}
@@ -529,8 +549,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   COLLECTIONS
@@ -548,8 +573,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   {" "}
@@ -568,8 +598,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   FAQ
@@ -587,8 +622,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   TEAM
@@ -606,8 +646,13 @@ function Navbar(props) {
                 <Typography
                   sx={{
                     fontWeight: "800",
-                    fontSize: { xl: "16px", lg: "14px", md: "12px" },
+                    fontSize: { xl: "16px", lg: "14px", md: "10px" },
                     paddingRight: { xl: "40px", lg: "20px", md: "1px" },
+                    "&:hover": {
+                      //you want this to be the same as the backgroundColor above
+                      color: "#fff",
+                    },
+                    fontFamily: "Raleway-bolder",
                   }}
                 >
                   CONTACT
