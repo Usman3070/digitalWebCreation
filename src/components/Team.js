@@ -236,6 +236,7 @@ const Team = () => {
                   height: { md: "250px", xs: "200px" },
                   width: { md: "250px", xs: "200px" },
                   borderRadius: "125px",
+                  border: "3px solid #573bfe",
                 }}
               >
                 <CardMedia
@@ -279,6 +280,7 @@ const Team = () => {
                   height: { md: "250px", xs: "200px" },
                   width: { md: "250px", xs: "200px" },
                   borderRadius: "125px",
+                  border: "3px solid #573bfe",
                 }}
               >
                 <CardMedia
