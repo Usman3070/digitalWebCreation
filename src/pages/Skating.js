@@ -29,7 +29,7 @@ const Skating = () => {
           <Navbar />
           <Box>
             <Container
-              sx={{ width: { lg: "56%", md: "80%", sm: "100%", xs: "90%" } }}
+              sx={{ width: { lg: "56%", md: "80%", sm: "100%", xs: "100%" } }}
             >
               <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Box
@@ -116,7 +116,12 @@ const Skating = () => {
                           sm: "200px",
                           xs: "128px",
                         },
-                        marginLeft: { xl: "25%", md: "25%", sm: "25%" },
+                        marginLeft: {
+                          xl: "25%",
+                          md: "25%",
+                          sm: "25%",
+                          xs: "0%",
+                        },
                         marginTop: {
                           xl: "8%",
                           lg: "10%",
