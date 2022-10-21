@@ -100,9 +100,9 @@ const Whitepapers = () => {
                       sm: "center",
                       md: "left",
                       lg: "left",
-                      xl: "left",
+                      xl: "center",
                     },
-                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
+                    marginLeft: { xl: "0px", lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway-bolder'
                 >
@@ -116,7 +116,17 @@ const Whitepapers = () => {
                     )
                   }
                 /> */}
-                <Container>
+                <Container
+                  sx={{
+                    width: {
+                      xl: "60%",
+                      lg: "93%",
+                      md: "100%",
+                      sm: "50%",
+                      xs: "80%",
+                    },
+                  }}
+                >
                   <Button
                     sx={{
                       backgroundColor: "#4efd93",
@@ -184,9 +194,9 @@ const Whitepapers = () => {
                       sm: "center",
                       md: "left",
                       lg: "left",
-                      xl: "left",
+                      xl: "center",
                     },
-                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
+                    marginLeft: { xl: "0px", lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway-bolder'
                 >
@@ -200,7 +210,17 @@ const Whitepapers = () => {
                     )
                   }
                 /> */}
-                <Container>
+                <Container
+                  sx={{
+                    width: {
+                      xl: "60%",
+                      lg: "93%",
+                      md: "100%",
+                      sm: "50%",
+                      xs: "80%",
+                    },
+                  }}
+                >
                   <Button
                     sx={{
                       backgroundColor: "#4efd93",
@@ -269,9 +289,9 @@ const Whitepapers = () => {
                       sm: "center",
                       md: "left",
                       lg: "left",
-                      xl: "left",
+                      xl: "center",
                     },
-                    marginLeft: { lg: "57px", sm: "0px", xs: "0px" },
+                    marginLeft: { xl: "0px", lg: "57px", sm: "0px", xs: "0px" },
                   }}
                   fontFamily='Raleway-bolder'
                 >
@@ -285,7 +305,17 @@ const Whitepapers = () => {
                     )
                   }
                 /> */}
-                <Container>
+                <Container
+                  sx={{
+                    width: {
+                      xl: "60%",
+                      lg: "93%",
+                      md: "100%",
+                      sm: "50%",
+                      xs: "80%",
+                    },
+                  }}
+                >
                   <Button
                     sx={{
                       backgroundColor: "#4efd93",
