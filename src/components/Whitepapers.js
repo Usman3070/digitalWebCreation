@@ -119,7 +119,7 @@ const Whitepapers = () => {
                 <Container
                   sx={{
                     width: {
-                      xl: "60%",
+                      xl: "80%",
                       lg: "93%",
                       md: "100%",
                       sm: "50%",
@@ -213,7 +213,7 @@ const Whitepapers = () => {
                 <Container
                   sx={{
                     width: {
-                      xl: "60%",
+                      xl: "80%",
                       lg: "93%",
                       md: "100%",
                       sm: "50%",
@@ -308,7 +308,7 @@ const Whitepapers = () => {
                 <Container
                   sx={{
                     width: {
-                      xl: "60%",
+                      xl: "80%",
                       lg: "93%",
                       md: "100%",
                       sm: "50%",
