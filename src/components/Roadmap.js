@@ -75,7 +75,7 @@ const Roadmap = () => {
         >
           ROADMAP
         </Typography>
-        <Typography
+        {/* <Typography
           sx={{
             position: "absolute",
             bottom: { lg: "6.3%", md: "6.1%" },
@@ -227,7 +227,7 @@ const Roadmap = () => {
           >
             ---------------
           </Typography>
-        </Typography>
+        </Typography> */}
 
         <Grid container spacing={2}>
           <Grid
@@ -256,11 +256,20 @@ const Roadmap = () => {
             {roadMapContent.map((roadmap, index) => (
               <>
                 <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    padding: "22px 0",
-                  }}
+                  sx={
+                    index > 3
+                      ? {
+                          display: "flex",
+                          alignItems: "center",
+                          padding: "22px 0",
+                          marginLeft: "20px",
+                        }
+                      : {
+                          display: "flex",
+                          alignItems: "center",
+                          padding: "22px 0",
+                        }
+                  }
                 >
                   {/* <CardMedia
                   image={sphere}
@@ -270,22 +279,26 @@ const Roadmap = () => {
                     sx={
                       index > 3
                         ? {
-                            width: "15%",
+                            // width: "15%",
                             display: { md: "flex", xs: "none" },
                             alignItems: "center",
                             // paddingLeft: "20px",
-                            marginLeft: "20px",
+                            // marginLeft: "20px",
+                            marginRight: "40px",
                           }
                         : {
-                            width: "15%",
+                            // width: "15%",
                             display: { md: "flex", xs: "none" },
                             alignItems: "center",
                           }
                     }
+                    className={
+                      index < roadMapContent.length - 1 ? "dot" : "dotLeft"
+                    }
                   >
-                    <img src={roadmap.img} />
+                    <img src={roadmap.img} style={{ zIndex: "1" }} />
 
-                    <Typography
+                    {/* <Typography
                       sx={
                         index > 3
                           ? {
@@ -299,7 +312,7 @@ const Roadmap = () => {
                               width: "40px",
                             }
                       }
-                    ></Typography>
+                    ></Typography> */}
                   </Typography>
 
                   <Box

@@ -41,3 +41,33 @@ code {
     padding-bottom: 200px;
   }
 } */
+.dot {
+  position: relative;
+}
+.dot::before {
+  content: "";
+  border-left: 2px dashed #fff;
+  height: 180px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.dot::after {
+  content: "";
+  border-bottom: solid #fff;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 70%;
+}
+.dotLeft {
+  position: relative;
+}
+.dotLeft::after {
+  content: "";
+  border-bottom: solid #fff;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 70%;
+}
