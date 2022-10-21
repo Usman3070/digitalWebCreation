@@ -69,7 +69,7 @@ const Footer = () => {
                   openInNewTab("https://linktr.ee/DigitalWebCreationClub")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={linktree}
                   sx={{
                     height: "48px",
@@ -77,6 +77,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={linktree}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -84,7 +88,7 @@ const Footer = () => {
               <div
                 onClick={() => openInNewTab("https://discord.com/invite/dwcc")}
               >
-                <CardMedia
+                {/* <CardMedia
                   image={discord}
                   sx={{
                     height: "48px",
@@ -92,6 +96,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={discord}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -100,7 +108,7 @@ const Footer = () => {
               <div
                 onClick={() => openInNewTab("https://twitter.com/SlothRoob")}
               >
-                <CardMedia
+                {/* <CardMedia
                   image={twitter}
                   sx={{
                     height: "48px",
@@ -108,6 +116,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={twitter}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -117,7 +129,7 @@ const Footer = () => {
                   openInNewTab("https://www.facebook.com/TheChroniclesofRoob")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={facebook}
                   sx={{
                     height: "48px",
@@ -125,6 +137,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={facebook}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -134,7 +150,7 @@ const Footer = () => {
                   openInNewTab("https://www.instagram.com/sloth_roob/")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={instagram}
                   sx={{
                     height: "48px",
@@ -142,6 +158,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={instagram}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -153,7 +173,7 @@ const Footer = () => {
                   )
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image='/youtube.svg'
                   sx={{
                     height: "48px",
@@ -161,6 +181,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src='/youtube.svg'
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -170,7 +194,7 @@ const Footer = () => {
                   openInNewTab("https://www.tiktok.com/@slothroobnft")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={tiktok}
                   sx={{
                     height: "48px",
@@ -178,6 +202,10 @@ const Footer = () => {
                     cursor: "pointer",
                     // marginRight: { md: "20px", xs: "6px" },
                   }}
+                /> */}
+                <img
+                  src={tiktok}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -187,13 +215,17 @@ const Footer = () => {
                   openInNewTab("https://digitalwebcreation.medium.com/")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={footerImg}
                   sx={{
                     height: "48px",
                     width: "48px",
                     cursor: "pointer",
                   }}
+                /> */}
+                <img
+                  src={footerImg}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -203,13 +235,17 @@ const Footer = () => {
                   openInNewTab("https://digitalwebcreation.medium.com/")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={opensea}
                   sx={{
                     height: "48px",
                     width: "48px",
                     cursor: "pointer",
                   }}
+                /> */}
+                <img
+                  src={opensea}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
@@ -219,7 +255,7 @@ const Footer = () => {
                   openInNewTab("https://digitalwebcreation.medium.com/")
                 }
               >
-                <CardMedia
+                {/* <CardMedia
                   image={opensea}
                   sx={{
                     height: "48px",
@@ -227,6 +263,10 @@ const Footer = () => {
 
                     cursor: "pointer",
                   }}
+                /> */}
+                <img
+                  src={opensea}
+                  style={{ cursor: "pointer", width: "40px", height: "38px" }}
                 />
               </div>
             </Grid>
