@@ -108,13 +108,13 @@ const Skating = () => {
                           lg: "210px",
                           md: "220px",
                           sm: "200px",
-                          xs: "128px",
+                          xs: "109px",
                         },
                         width: {
                           lg: "210px",
                           md: "220px",
                           sm: "200px",
-                          xs: "128px",
+                          xs: "109px",
                         },
                         marginLeft: {
                           xl: "25%",
