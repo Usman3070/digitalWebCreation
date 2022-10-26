@@ -9,6 +9,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Mellowmen from "./pages/Mellowmen";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/staking",
-    element: <Staking />,
+    // element: <Staking />,
+    element: <Mellowmen />,
   },
 ]);
 
